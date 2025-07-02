@@ -2,6 +2,7 @@
 
 import Image from "next/image"
 import { useState } from "react"
+import { getImagePath } from "@/lib/utils/image-path"
 
 interface BlogSectionProps {
   dict: any
@@ -37,7 +38,7 @@ function BlogImage({
 
   return (
     <Image
-      src={src || "/placeholder.svg"}
+      src={src || getImagePath("placeholder.svg")}
       alt={alt}
       width={width}
       height={height}
@@ -97,7 +98,7 @@ export default function BlogSection({ dict }: BlogSectionProps) {
                 </div>
                 <div className="relative">
                   <BlogImage
-                    src="/images/blog/antipasti-selection-golden-tray.jpg"
+                    src={getImagePath("images/blog/antipasti-selection-golden-tray.jpg")}
                     alt="Elegant antipasti selection with 10 seafood dishes"
                     className="w-full h-80 object-cover rounded-xl shadow-lg"
                     width={400}
@@ -116,7 +117,7 @@ export default function BlogSection({ dict }: BlogSectionProps) {
               <div className="grid lg:grid-cols-2 gap-12 mb-16">
                 <div className="relative order-2 lg:order-1">
                   <BlogImage
-                    src="/images/blog/chef-ridi-cutting-steak.jpg"
+                    src={getImagePath("images/blog/chef-ridi-cutting-steak.jpg")}
                     alt="Chef Ridi expertly preparing premium steak"
                     className="w-full h-80 object-cover rounded-xl shadow-lg"
                     width={400}
@@ -225,7 +226,7 @@ export default function BlogSection({ dict }: BlogSectionProps) {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="glass-card rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:-translate-y-2">
               <BlogImage
-                src="/images/blog/seafood-antipasti-variety.jpg"
+                src={getImagePath("images/blog/seafood-antipasti-variety.jpg")}
                 alt="Seafood antipasti variety"
                 className="w-full h-64 object-cover"
                 width={400}
@@ -241,7 +242,7 @@ export default function BlogSection({ dict }: BlogSectionProps) {
 
             <div className="glass-card rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:-translate-y-2">
               <BlogImage
-                src="/images/blog/whole-fish-special-sauce.jpg"
+                src={getImagePath("images/blog/whole-fish-special-sauce.jpg")}
                 alt="Whole fish with special golden sauce and lemon garnish"
                 className="w-full h-64 object-cover"
                 width={400}
@@ -278,7 +279,7 @@ export default function BlogSection({ dict }: BlogSectionProps) {
           <div className="glass-card rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:-translate-y-2">
             <div className="h-48 relative overflow-hidden">
               <BlogImage
-                src="/images/blog/grilled-squid-professional.jpg"
+                src={getImagePath("images/blog/grilled-squid-professional.jpg")}
                 alt="Perfectly grilled squid with professional presentation and herbs"
                 className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
                 width={400}
@@ -300,7 +301,7 @@ export default function BlogSection({ dict }: BlogSectionProps) {
           <div className="glass-card rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:-translate-y-2">
             <div className="h-48 relative overflow-hidden">
               <BlogImage
-                src="/images/blog/fresh-prawns-wine-ambiance.jpg"
+                src={getImagePath("images/blog/fresh-prawns-wine-ambiance.jpg")}
                 alt="Fresh prawns with white wine in elegant restaurant setting"
                 className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
                 width={400}
@@ -322,7 +323,7 @@ export default function BlogSection({ dict }: BlogSectionProps) {
           <div className="glass-card rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:-translate-y-2">
             <div className="h-48 relative overflow-hidden">
               <BlogImage
-                src="/images/blog/chef-aurel-cutting-steak.jpg"
+                src={getImagePath("images/blog/chef-aurel-cutting-steak.jpg")}
                 alt="Chef Aurel expertly slicing premium steak in TRE FORCHETTE kitchen"
                 className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
                 width={400}

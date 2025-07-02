@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import ImageFallback from "./image-fallback"
+import { getImagePath } from "@/lib/utils/image-path"
 
 interface HeroSectionProps {
   dict: any
@@ -15,7 +16,7 @@ export default function HeroSection({ dict }: HeroSectionProps) {
     const img = new Image()
     img.onload = () => setImageLoaded(true)
     img.onerror = () => setImageLoaded(false)
-    img.src = "/images/hero-seafood-spectacular.jpg"
+    img.src = getImagePath("images/hero-seafood-spectacular.jpg")
   }, [])
 
   return (
@@ -26,7 +27,7 @@ export default function HeroSection({ dict }: HeroSectionProps) {
           <div
             className="w-full h-full bg-cover bg-center bg-no-repeat transition-opacity duration-1000"
             style={{
-              backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url('/images/hero-seafood-spectacular.jpg')`,
+              backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url('${getImagePath("images/hero-seafood-spectacular.jpg")}')`,
               backgroundSize: "cover",
               backgroundPosition: "center center",
             }}
@@ -52,7 +53,7 @@ export default function HeroSection({ dict }: HeroSectionProps) {
         <div className="flex justify-center mb-8 sm:mb-10">
           <div className="filter-glow">
             <ImageFallback
-              src="/images/tre-forchette-logo.png"
+              src={getImagePath("images/tre-forchette-logo.png")}
               alt="Tre Forchette Logo"
               className="h-32 sm:h-40 lg:h-48 w-auto drop-shadow-xl"
               width={200}

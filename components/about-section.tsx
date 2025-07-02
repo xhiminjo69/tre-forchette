@@ -1,4 +1,5 @@
 import ImageFallback from "./image-fallback"
+import { getImagePath } from "@/lib/utils/image-path"
 
 interface AboutSectionProps {
   dict: any
@@ -64,7 +65,7 @@ export default function AboutSection({ dict }: AboutSectionProps) {
           <div className="relative order-1 lg:order-2">
             <div className="aspect-square sm:aspect-[4/3] lg:aspect-square rounded-2xl overflow-hidden shadow-2xl glass-card">
               <ImageFallback
-                src="/images/seafood-tasting-menu.jpg?v=1"
+                src={getImagePath("images/seafood-tasting-menu.jpg?v=1")}
                 alt="Exquisite seafood tasting menu with oysters, shrimp and delicacies at TRE FORCHETTE"
                 className="w-full h-full object-cover"
                 width={600}

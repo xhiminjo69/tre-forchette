@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Menu, X, Calendar, Phone } from "lucide-react"
 import LanguageSwitcher from "./language-switcher"
 import ImageFallback from "./image-fallback"
+import { getImagePath } from "@/lib/utils/image-path"
 
 interface HeaderProps {
   dict: any
@@ -66,7 +67,7 @@ export default function Header({ dict, lang }: HeaderProps) {
           {/* Logo that changes based on scroll state */}
           <Link href={`/${lang}`} className="flex items-center space-x-2 sm:space-x-3 flex-shrink-0">
             <ImageFallback
-              src={isScrolled ? "/images/Black llogo.png" : "/images/tre-forchette-logo.png"}
+              src={isScrolled ? getImagePath("images/Black llogo.png") : getImagePath("images/tre-forchette-logo.png")}
               alt="Tre Forchette Logo"
               className="h-8 sm:h-10 lg:h-12 w-auto"
               width={48}
