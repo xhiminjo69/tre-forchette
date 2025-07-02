@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import { imageUrls } from "@/lib/image-urls"
+import { getImagePath } from "@/lib/utils/image-path"
 
 interface ImageWithFallbackProps {
   src: string
@@ -35,7 +36,7 @@ export default function ImageWithFallback({
   if (imageError) {
     return (
       <img
-        src={imageUrls.placeholder(width, height, fallbackText) || "/placeholder.svg"}
+        src={imageUrls.placeholder(width, height, fallbackText) || getImagePath("placeholder.svg")}
         alt={alt}
         className={className}
       />
@@ -46,7 +47,7 @@ export default function ImageWithFallback({
     <div className="relative">
       {isLoading && <div className={`absolute inset-0 bg-gray-200 animate-pulse ${className}`} />}
       <img
-        src={src || "/placeholder.svg"}
+        src={src || getImagePath("placeholder.svg")}
         alt={alt}
         className={className}
         onError={handleImageError}

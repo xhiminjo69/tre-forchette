@@ -4,6 +4,7 @@ import { useState, useRef } from "react"
 import Image from "next/image"
 import { imageData, cdnImages } from "@/lib/image-data"
 import { useImageMonitoring } from "@/hooks/use-image-monitoring"
+import { getImagePath } from "@/lib/utils/image-path"
 
 interface MonitoredImageProps {
   src: string
@@ -68,7 +69,7 @@ export default function MonitoredImage({
     return (
       <img
         ref={imageRef}
-        src={fallbackSrc || "/placeholder.svg"}
+        src={fallbackSrc || getImagePath("placeholder.svg")}
         alt={alt}
         className={className}
         style={{ width: `${width}px`, height: `${height}px` }}
@@ -82,7 +83,7 @@ export default function MonitoredImage({
   if (imageError && cdnFallback && !cdnError) {
     return (
       <Image
-        src={cdnImages[cdnFallback] || "/placeholder.svg"}
+        src={cdnImages[cdnFallback] || getImagePath("placeholder.svg")}
         alt={alt}
         width={width}
         height={height}
@@ -98,7 +99,7 @@ export default function MonitoredImage({
   // Try local image first
   return (
     <Image
-      src={src || "/placeholder.svg"}
+      src={src || getImagePath("placeholder.svg")}
       alt={alt}
       width={width}
       height={height}
