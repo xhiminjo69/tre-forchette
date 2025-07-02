@@ -135,7 +135,7 @@ const galleryImages = [
     alt: "Elegant restaurant ambiance with perfectly cooked steak",
     title: "Steak & Ambiance",
     category: "Dining Experience",
-    cdnFallback: "restaurantAmbiance" as keyof typeof cdnImages,
+    cdnFallback: "restaurantSteakAmbiance" as keyof typeof cdnImages,
   },
 ]
 

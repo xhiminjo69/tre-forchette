@@ -10,6 +10,7 @@ export const imageData = {
 
 // External CDN URLs as backup
 export const cdnImages = {
+  // Existing CDN image URLs
   heroSeafood: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=1200&h=800&fit=crop&crop=center",
   fishCarpaccio: "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&h=600&fit=crop&crop=center",
   grilledSquid: "https://images.unsplash.com/photo-1559847844-d721426d6edc?w=800&h=600&fit=crop&crop=center",
@@ -18,4 +19,18 @@ export const cdnImages = {
   bisteccaFiorentina: "https://images.unsplash.com/photo-1558030006-450675393462?w=800&h=600&fit=crop&crop=center",
   freshPasta: "https://images.unsplash.com/photo-1621996346565-e3dbc353d2e5?w=800&h=600&fit=crop&crop=center",
   seafoodRisotto: "https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=800&h=600&fit=crop&crop=center",
+  
+  // Adding missing CDN fallback URLs for gallery images
+  antipastiSelection: "https://images.unsplash.com/photo-1626198226928-990140ab23b6?w=800&h=600&fit=crop&crop=center",
+  bakedFish: "https://images.unsplash.com/photo-1598511726623-d2e9996892f0?w=800&h=600&fit=crop&crop=center",
+  freshPrawns: "https://images.unsplash.com/photo-1510130387422-82bed34b37e9?w=800&h=600&fit=crop&crop=center",
+  grilledSteak: "https://images.unsplash.com/photo-1600891964092-4316c288032e?w=800&h=600&fit=crop&crop=center",
+  lobsterPasta: "https://images.unsplash.com/photo-1588791174744-7e9bf4378277?w=800&h=600&fit=crop&crop=center",
+  octopusArtistry: "https://images.unsplash.com/photo-1628569634673-049f693bfbc1?w=800&h=600&fit=crop&crop=center",
+  seafoodAntipasti: "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=800&h=600&fit=crop&crop=center",
+  pastaDishes: "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=800&h=600&fit=crop&crop=center",
+  restaurantSteakAmbiance: "https://images.unsplash.com/photo-1514516345957-556ca7c90a34?w=800&h=600&fit=crop&crop=center",
+  seafoodPasta: "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=800&h=600&fit=crop&crop=center",
+  wholeFishBaked: "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=800&h=600&fit=crop&crop=center",
+  wholeFishPreparation: "https://images.unsplash.com/photo-1580476262798-bddd9f4b7369?w=800&h=600&fit=crop&crop=center"
 }
