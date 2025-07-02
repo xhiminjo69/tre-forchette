@@ -10,7 +10,13 @@ const isBrowser = typeof window !== 'undefined';
 const getBaseUrl = (): string => {
   // In production on GitHub Pages
   if (isBrowser && window.location.hostname !== 'localhost') {
-    return '/tre-forchette';
+    // Extract the repository name from the pathname to handle any route
+    const pathParts = window.location.pathname.split('/');
+    if (pathParts.length > 1) {
+      // The first part after the initial slash is the repo name in GitHub Pages
+      return `/${pathParts[1]}`;
+    }
+    return '/tre-forchette'; // Fallback to hardcoded value
   }
   return '';
 };
