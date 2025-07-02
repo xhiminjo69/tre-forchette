@@ -1,6 +1,6 @@
 # Tre Forchette Website
 
-This is a Next.js project configured for GitHub Pages deployment.
+This is a Next.js project configured for GitHub Pages deployment with custom domain support at [tre-forchette-restaurant.com](https://tre-forchette-restaurant.com).
 
 ## Image Loading Mechanism
 
