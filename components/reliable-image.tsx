@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import Image from "next/image"
 import { imageData, cdnImages } from "@/lib/image-data"
 import { getImagePath } from "@/lib/utils/image-path"
@@ -34,9 +34,6 @@ export default function ReliableImage({
   const [cdnError, setCdnError] = useState(false)
   const [isLoading, setIsLoading] = useState(true)
 
-  // Always process the image source through getImagePath to ensure it works correctly on GitHub Pages
-  const processedSrc = src.startsWith("http") ? src : getImagePath(src)
-
   // Handle successful image load
   const handleImageLoad = () => {
     setIsLoading(false)
@@ -53,6 +50,19 @@ export default function ReliableImage({
     setCdnError(true)
     setIsLoading(false)
   }
+  
+  // Always process the image source through getImagePath to ensure it works correctly on GitHub Pages
+  const processedSrc = src.startsWith("http") ? src : getImagePath(src)
+  
+  // Pre-load the image to check if it exists
+  useEffect(() => {
+    if (!processedSrc.startsWith("http")) {
+      const img = new window.Image()
+      img.src = processedSrc
+      img.onload = handleImageLoad
+      img.onerror = handleImageError
+    }
+  }, [processedSrc])
 
   // If both local and CDN images fail, show fallback
   if (imageError && (cdnError || !cdnFallback)) {

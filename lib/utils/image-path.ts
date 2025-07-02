@@ -1,26 +1,40 @@
 /**
- * Utility function to get the correct image path based on environment
- * This ensures images work both locally and when deployed to GitHub Pages
+ * Utility functions for handling image paths
+ * Ensures paths work correctly in both development and production (GitHub Pages)
  */
+import getConfig from 'next/config';
 
 // Check if we're in a browser environment
-const isBrowser = typeof window !== 'undefined';
+const isBrowser = typeof window !== "undefined";
 
-// Get the base URL for assets
+/**
+ * Get the base URL for assets on GitHub Pages
+ * This is critical for handling page refreshes correctly
+ */
 const getBaseUrl = (): string => {
-  // In production on GitHub Pages
-  if (isBrowser && window.location.hostname !== 'localhost') {
-    // Extract the repository name from the pathname to handle any route
-    const pathParts = window.location.pathname.split('/');
-    if (pathParts.length > 1) {
-      // The first part after the initial slash is the repo name in GitHub Pages
-      return `/${pathParts[1]}`;
+  // Try to get the base path from Next.js config first
+  try {
+    const { publicRuntimeConfig } = getConfig() || {};
+    if (publicRuntimeConfig?.basePath) {
+      return publicRuntimeConfig.basePath;
     }
-    return '/tre-forchette'; // Fallback to hardcoded value
+  } catch (e) {
+    // Config not available, fall back to manual detection
+  }
+
+  // Manual detection as fallback
+  if (isBrowser) {
+    if (window.location.hostname !== 'localhost') {
+      return '/tre-forchette';
+    }
   }
   return '';
 };
 
+/**
+ * Process an image path to ensure it works on GitHub Pages
+ * This handles both initial page load and page refreshes
+ */
 export function getImagePath(path: string): string {
   // Handle absolute URLs (don't modify external URLs)
   if (path.startsWith('http://') || path.startsWith('https://')) {
