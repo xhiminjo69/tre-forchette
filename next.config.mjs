@@ -19,7 +19,8 @@ const nextConfig = {
   },
   output: 'export', // Enable static export
   trailingSlash: true, // Add trailing slashes for better compatibility
-  assetPrefix: '', // Don't use asset prefix for static export
+  basePath: '/tre-forchette', // Add base path for GitHub Pages
+  assetPrefix: '/tre-forchette', // Set asset prefix for GitHub Pages
   experimental: {
     optimizePackageImports: ['lucide-react'],
   },
