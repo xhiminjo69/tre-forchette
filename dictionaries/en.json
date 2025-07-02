@@ -1,0 +1,413 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "menu": "Menu",
+    "gallery": "Gallery",
+    "blog": "Blog",
+    "reservation": "Reservation",
+    "reviews": "Reviews",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "TRE FORCHETTE",
+    "subtitle": "Authentic Italian Culinary Excellence",
+    "tagline": "Where tradition meets passion in every dish",
+    "cta_reservation": "Make a Reservation",
+    "cta_menu": "View Menu"
+  },
+  "about": {
+    "title": "Welcome to TRE FORCHETTE",
+    "subtitle": "Where Italian Cuisine Meets Elegance",
+    "greeting": "Dear friends,",
+    "content": "We are delighted to invite you to TRE FORCHETTE – one of the most refined restaurants in the city of Vlorë, where Italian cuisine is revealed in all its finesse and depth of flavor.",
+    "features": {
+      "ingredients": "Only the highest quality ingredients",
+      "experience": "Chefs with over 20 years of experience",
+      "service": "Impeccable service and luxurious plate presentation"
+    },
+    "mission": "Every visit to TRE FORCHETTE is a gastronomic journey where Italian traditions blend with elegance, attention to detail, and heartfelt hospitality.",
+    "invitation": "Come and enjoy an atmosphere of style, taste, and top-tier quality.",
+    "cta": "Reserve your table today — and treat yourself to an unforgettable evening."
+  },
+  "menu": {
+    "title": "Our Menu",
+    "subtitle": "Crafted with Passion, Served with Pride",
+    "signature": "Chef's Signature",
+    "categories": {
+      "sallata": "Salads",
+      "antipasta": "Antipasti",
+      "primi": "First Courses",
+      "secondi": "Main Courses"
+    },
+    "items": {
+      "sallata": [
+        {
+          "name": "Green Salad",
+          "description": "Mixed greens, arugula, radicchio, sun-dried tomatoes, olives, extra virgin olive oil, vinegar, salt",
+          "price": "650 ALL"
+        },
+        {
+          "name": "Sautéed Spinach",
+          "description": "Fresh spinach, pine nuts, garlic, butter, extra virgin olive oil, salt",
+          "price": "700 ALL"
+        },
+        {
+          "name": "Caprese Salad",
+          "description": "Mozzarella Ciliegine, cherry tomatoes, fresh basil, extra virgin olive oil, oregano, salt",
+          "price": "700 ALL"
+        },
+        {
+          "name": "Roquefort Salad",
+          "description": "Mixed salad, Roquefort cheese, walnuts, honey, extra virgin olive oil, grape vinegar, salt",
+          "price": "750 ALL"
+        },
+        {
+          "name": "Arugula Salad with Pine Nuts",
+          "description": "Arugula, cherry tomatoes, green apple, pine nuts, Parmigiano cheese, grape vinegar, extra virgin olive oil, salt",
+          "price": "850 ALL"
+        },
+        {
+          "name": "Bresaola Salad",
+          "description": "Arugula, bresaola, Parmigiano cheese, balsamic cream, extra virgin olive oil, salt",
+          "price": "850 ALL"
+        }
+      ],
+      "antipasta": [
+        {
+          "name": "Red Mullet Carpaccio",
+          "description": "Marinated with extra virgin olive oil, lemon, salt",
+          "price": "1300 ALL"
+        },
+        {
+          "name": "Sea Bream Carpaccio",
+          "description": "Marinated with extra virgin olive oil, lemon, pink peppercorns, salt",
+          "price": "1300 ALL"
+        },
+        {
+          "name": "Octopus Carpaccio",
+          "description": "Marinated with extra virgin olive oil, lemon, sun-dried tomatoes, arugula, salt",
+          "price": "1300 ALL"
+        },
+        {
+          "name": "Swordfish Carpaccio",
+          "description": "Marinated with extra virgin olive oil, lemon, white onion, salt",
+          "price": "1300 ALL"
+        },
+        {
+          "name": "Arancini",
+          "description": "Stuffed with rice and sea bass; served with spicy aurora sauce",
+          "price": "600 ALL"
+        },
+        {
+          "name": "Mixed Platter for 2",
+          "description": "Selection of hot and cold antipasti from our chef – all marinated to perfection",
+          "price": "3500 ALL"
+        },
+        {
+          "name": "Mixed Platter for 3",
+          "description": "Selection of hot and cold antipasti from our chef – all marinated to perfection",
+          "price": "5500 ALL"
+        },
+        {
+          "name": "Mixed Platter for 4",
+          "description": "Selection of hot and cold antipasti from our chef – all marinated to perfection",
+          "price": "7000 ALL"
+        },
+        {
+          "name": "Beef Carpaccio",
+          "description": "With arugula, sun-dried tomatoes, Parmigiano cheese, extra virgin olive oil, lemon, pepper, salt",
+          "price": "1600 ALL"
+        },
+        {
+          "name": "Vitello Tonnato",
+          "description": "Selected veal cuts; served with our homemade tuna sauce",
+          "price": "1600 ALL"
+        },
+        {
+          "name": "Fried Seafood",
+          "description": "Selection of fresh seafood: cuttlefish, squid, shrimp",
+          "price": "1600 ALL"
+        }
+      ],
+      "primi": [
+        {
+          "name": "Fish Soup",
+          "description": "Prepared with sea bass, salmon, potatoes, carrots, extra virgin olive oil, salt",
+          "price": "450 ALL"
+        },
+        {
+          "name": "Vegetable Soup",
+          "description": "Prepared with mixed vegetables, extra virgin olive oil, salt",
+          "price": "400 ALL"
+        },
+        {
+          "name": "Black Tagliatelle with Squid Ink",
+          "description": "Fresh black tagliatelle made with squid ink, fresh mollusks and crustaceans, garlic, fresh basil, extra virgin olive oil, salt",
+          "price": "800 ALL",
+          "signature": true
+        },
+        {
+          "name": "Linguine with Seafood",
+          "description": "Fresh linguine, seasonal mollusks and crustaceans, tomato sauce, garlic, fresh basil, extra virgin olive oil, salt",
+          "price": "800 ALL"
+        },
+        {
+          "name": "Tagliatelle with Ragu",
+          "description": "Fresh tagliatelle, tomato sauce, ground veal, milk, onion, carrots, celery, bay leaves, fresh basil, extra virgin olive oil, salt",
+          "price": "800 ALL"
+        },
+        {
+          "name": "Seafood Risotto",
+          "description": "Carnaroli rice, fresh seasonal mollusks and crustaceans, extra virgin olive oil, onion, salt",
+          "price": "800 ALL"
+        },
+        {
+          "name": "Pappardelle alla Norcina",
+          "description": "Fresh pappardelle, fresh pork sausage, fresh mushrooms, Parmigiano cheese, butter, extra virgin olive oil, salt",
+          "price": "900 ALL",
+          "signature": true
+        },
+        {
+          "name": "Orecchiette with Lobster and Zucchini",
+          "description": "Fresh orecchiette, deep-sea lobster, zucchini, cherry tomatoes, fresh basil, extra virgin olive oil, salt",
+          "price": "900 ALL"
+        }
+      ],
+      "secondi": [
+        {
+          "name": "Salmon on Zucchini Bed",
+          "description": "Baked salmon - served with zucchini sauce - fresh basil, extra virgin olive oil, pink peppercorns, salt",
+          "price": "1500 ALL",
+          "signature": true
+        },
+        {
+          "name": "Sliced Veal Fillet",
+          "description": "Sliced veal fillet - served with arugula salad, Parmigiano cheese, balsamic cream, extra virgin olive oil, sea salt flakes",
+          "price": "1800 ALL"
+        },
+        {
+          "name": "Mediterranean Octopus",
+          "description": "Fried octopus, tomato sauce, small onions, garlic, fresh basil, extra virgin olive oil, salt",
+          "price": "1700 ALL"
+        },
+        {
+          "name": "Bistecca alla Fiorentina",
+          "description": "Sliced and perfectly grilled veal T-bone - served with sweet chili sauce and barbecue sauce",
+          "price": "550 ALL/100g",
+          "signature": true
+        },
+        {
+          "name": "Black Angus Picanha Tagliata",
+          "description": "Sliced Black Angus Picanha fillet - served with radicchio salad, Parmigiano cheese, balsamic cream, extra virgin olive oil, sea salt flakes",
+          "price": "600 ALL/100g"
+        },
+        {
+          "name": "Grilled Chicken Fillet",
+          "description": "Chicken fillet, extra virgin olive oil, salt - served with mixed salad and barbecue sauce",
+          "price": "900 ALL"
+        },
+        {
+          "name": "Fish Fillet with Pepper Sauce",
+          "description": "Fresh grilled sea bass; sauce with red peppers, tomatoes, cooking cream, garlic, basil, extra virgin olive oil, salt",
+          "price": "1400 ALL"
+        },
+        {
+          "name": "Fresh Fish of the Day",
+          "description": "*Ask our staff for details*",
+          "price": "Market Price"
+        }
+      ]
+    }
+  },
+  "gallery": {
+    "title": "Culinary Gallery",
+    "subtitle": "A Visual Journey Through Our Kitchen"
+  },
+  "reservation": {
+    "title": "Make a Reservation",
+    "subtitle": "Secure Your Table for an Unforgettable Experience",
+    "instant_confirmation": "Instant Confirmation",
+    "premium_experience": "Premium Experience",
+    "memorable_moments": "Memorable Moments",
+    "why_reserve": "Why Reserve with Us",
+    "guaranteed_table": "Guaranteed Table",
+    "guaranteed_table_desc": "Your perfect spot awaits",
+    "special_occasions": "Special Occasions",
+    "special_occasions_desc": "We make celebrations memorable",
+    "any_group_size": "Any Group Size",
+    "any_group_size_desc": "Intimate dinners to large parties",
+    "popular_times": "Popular Times",
+    "lunch_service": "Lunch Service",
+    "lunch_service_desc": "Perfect for business meetings",
+    "dinner_service": "Dinner Service",
+    "dinner_service_desc": "Romantic & family dining",
+    "book_early": "Book early for weekends and special occasions",
+    "need_help": "Need Help?",
+    "chat_whatsapp": "Chat on WhatsApp",
+    "call_restaurant": "Call Restaurant",
+    "complete_reservation": "Complete Your Reservation",
+    "instant_confirmation_desc": "Instant confirmation via WhatsApp • No waiting • Direct communication",
+    "personal_information": "Personal Information",
+    "reservation_details": "Reservation Details",
+    "date": "Date",
+    "time": "Time",
+    "guests": "Guests",
+    "select_time": "Select Time",
+    "number_of_guests": "Number of guests",
+    "special_occasion_optional": "Special Occasion (Optional)",
+    "select_occasion": "Select an occasion",
+    "special_requests_placeholder": "Special requests, dietary requirements, seating preferences...",
+    "send_reservation": "Send Reservation Request",
+    "instant_confirmation_footer": "You'll receive instant confirmation via WhatsApp",
+    "experience_finest": "Experience the finest Italian cuisine in Vlorë",
+    "complimentary_service": "Every reservation includes complimentary bread service and personalized attention from our team",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "date": "Preferred Date",
+      "time": "Preferred Time",
+      "guests": "Number of Guests",
+      "message": "Special Requests"
+    }
+  },
+  "blog": {
+    "title": "From Our Kitchen",
+    "subtitle": "Stories, Traditions & Culinary Passion",
+    "reserve_now": "Reserve Your Table",
+    "view_menu": "View Our Menu",
+    "behind_scenes": {
+      "title": "Behind the Scenes",
+      "subtitle": "Where culinary magic happens",
+      "chef_section": {
+        "title": "Our Master Chef",
+        "description": "Chef Ridi brings decades of Italian culinary tradition to every dish. His meticulous attention to detail and passion for authentic flavors ensure that each plate tells a story of Italian heritage and modern excellence.",
+        "chef_name": "Chef Ridi",
+        "chef_title": "Executive Chef & Owner"
+      },
+      "fresh_daily": {
+        "title": "Fresh Daily Selection",
+        "description": "Every morning, we carefully select the finest seafood, premium meats, and freshest ingredients. Our commitment to quality means that each dish represents the very best of Italian culinary tradition.",
+        "fresh_daily_label": "Fresh Daily",
+        "years_experience_label": "Years Experience",
+        "premium_quality_label": "Premium Quality"
+      }
+    },
+    "culinary_artistry": {
+      "title": "Our Culinary Artistry",
+      "subtitle": "From antipasti to fresh fish - every dish tells a story",
+      "antipasti": {
+        "title": "Antipasti Mastery",
+        "description": "Each antipasto is a work of art, featuring the finest seafood prepared with traditional Italian techniques and modern presentation."
+      },
+      "fresh_fish": {
+        "title": "Fresh Fish Daily",
+        "description": "Our signature whole fish preparations feature the day's freshest catch, expertly baked with our special golden sauce and Mediterranean herbs."
+      },
+      "chef_expertise": {
+        "title": "Chef's Expertise",
+        "description": "Chef Ridi's skilled hands transform premium ingredients into culinary masterpieces that honor Italian tradition."
+      }
+    },
+    "article": {
+      "title": "A Taste of Italy in the Heart of Vlorë: Discover TRE FORCHETTE",
+      "intro": "In the vibrant coastal city of Vlorë, where the Adriatic meets the Ionian Sea, lies a culinary gem that redefines Italian dining — TRE FORCHETTE. More than just a restaurant, it is an experience where flavors, artistry, and hospitality come together in perfect harmony.",
+      "sections": {
+        "tradition": {
+          "title": "Italian Tradition, Elevated",
+          "content": "At TRE FORCHETTE, Italian cuisine is not merely served — it is celebrated. Our menu is a curated journey through the rich culinary landscape of Italy, where time-honored recipes meet modern finesse. Each dish is crafted with only the highest quality ingredients, carefully selected for their freshness, authenticity, and ability to awaken your senses."
+        },
+        "expertise": {
+          "title": "Expertise That Speaks for Itself",
+          "content": "Our team of chefs brings over 20 years of experience to your table. With deep roots in Italian gastronomy and an uncompromising passion for excellence, they transform every plate into a work of art. From handcrafted pasta to slow-cooked sauces and expertly grilled seafood, each element reflects a profound respect for flavor and tradition."
+        },
+        "luxury": {
+          "title": "Luxury in Every Detail",
+          "content": "Step into an ambiance of elegance and warmth. At TRE FORCHETTE, impeccable service and luxurious plate presentation are not extras — they are standards. Our staff is trained to anticipate your needs and ensure that every moment of your visit feels special, personal, and truly Italian."
+        },
+        "experience": {
+          "title": "More Than a Meal — A Memory",
+          "content": "Dining at TRE FORCHETTE is a gastronomic journey. Whether you're joining us for a romantic dinner, a family celebration, or a quiet evening of fine wine and conversation, you'll find yourself immersed in an atmosphere where style, taste, and heartfelt hospitality shine through."
+        }
+      },
+      "location": "Located in the heart of Vlorë, TRE FORCHETTE is your destination for authentic Italian cuisine, masterfully prepared and beautifully served.",
+      "cta": "Reserve your table today and let us treat you to an evening of elegance, tradition, and unforgettable flavor.",
+      "welcome": "Benvenuti a TRE FORCHETTE",
+      "tagline": "Where every bite tells a story."
+    },
+    "highlights": {
+      "authentic": {
+        "title": "Authentic Recipes",
+        "description": "Traditional Italian recipes passed down through generations, prepared with modern techniques and the finest ingredients."
+      },
+      "excellence": {
+        "title": "Culinary Excellence",
+        "description": "Over 20 years of expertise in Italian gastronomy, creating masterpieces that honor tradition while embracing innovation."
+      },
+      "hospitality": {
+        "title": "Italian Hospitality",
+        "description": "Warm, personal service that makes every guest feel like family, creating memories that last long after the meal ends."
+      }
+    }
+  },
+  "reviews": {
+    "title": "What Our Guests Say",
+    "subtitle": "Testimonials from Our Valued Customers",
+    "items": [
+      {
+        "name": "Ana L",
+        "rating": 5,
+        "text": "Cute restaurant. Great food, great wine and very nice staff. Pretty classy. We had pastas, both dish were fresh and tasty. I strongly recommend"
+      },
+      {
+        "name": "Cassandra R",
+        "rating": 5,
+        "text": "Really good food and service for the price. I recommend this restaurant if you want something a little bit fancy but affordable."
+      },
+      {
+        "name": "Tamara M",
+        "rating": 5,
+        "text": "Delicious food, both pasta dish and dessert. And very good care too. Very good atmosphere. Super recommended"
+      },
+      {
+        "name": "Константин А",
+        "rating": 5,
+        "text": "The best restaurant in Vlora. VIP service, incredibly delicious cuisine, starter as a gift. I definitely recommend visiting."
+      },
+      {
+        "name": "Hulio U",
+        "rating": 5,
+        "text": "Best food and excellent staff you should try the experience on this restaurant it is a guaranteed happiness so get there and enjoy."
+      },
+      {
+        "name": "Saeed A",
+        "rating": 5,
+        "text": "It was one of best experiences for food and steak was great also staff are polite, I REALLY ENJOYED EVERY SINGLE MOMENT IN THERE."
+      }
+    ],
+    "rating": {
+      "score": "4.8/5",
+      "count": "Based on 700+ reviews"
+    },
+    "tripadvisor": {
+      "link": "https://www.tripadvisor.com/Restaurant_Review-g678774-d15610273-Reviews-Tre_Forchette_Restaurant-Vlore_Vlore_County.html",
+      "cta": "See all our reviews on TripAdvisor",
+      "ranking": "Ranked #4 of 293 restaurants in Vlore",
+      "tagline": "We're proud to be among the top restaurants in Vlore!"
+    }
+  },
+  "contact": {
+    "title": "Visit Us",
+    "subtitle": "Experience Authentic Italian Dining",
+    "hours": "Opening Hours",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "social": "Follow Us"
+  },
+  "footer": {
+    "copyright": "© 2024 Tre Forchette. All rights reserved.",
+    "made_with": "Made with ❤️ for authentic Italian cuisine"
+  }
+}

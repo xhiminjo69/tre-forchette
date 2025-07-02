@@ -1,0 +1,413 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "Chi Siamo",
+    "menu": "Menu",
+    "gallery": "Galleria",
+    "blog": "Blog",
+    "reservation": "Prenotazione",
+    "reviews": "Recensioni",
+    "contact": "Contatti"
+  },
+  "hero": {
+    "title": "TRE FORCHETTE",
+    "subtitle": "Eccellenza Culinaria Italiana Autentica",
+    "tagline": "Dove la tradizione incontra la passione in ogni piatto",
+    "cta_reservation": "Prenota un Tavolo",
+    "cta_menu": "Vedi Menu"
+  },
+  "about": {
+    "title": "Benvenuti a TRE FORCHETTE",
+    "subtitle": "Dove la Cucina Italiana Incontra l'Eleganza",
+    "greeting": "Cari amici,",
+    "content": "Siamo lieti di invitarvi al TRE FORCHETTE – uno dei ristoranti più raffinati della città di Valona, dove la cucina italiana si rivela in tutta la sua finezza e profondità di sapore.",
+    "features": {
+      "ingredients": "Solo ingredienti della più alta qualità",
+      "experience": "Chef con oltre 20 anni di esperienza",
+      "service": "Servizio impeccabile e presentazione lussuosa dei piatti"
+    },
+    "mission": "Ogni visita al TRE FORCHETTE è un viaggio gastronomico dove le tradizioni italiane si fondono con eleganza, attenzione ai dettagli e ospitalità calorosa.",
+    "invitation": "Venite a godervi un'atmosfera di stile, gusto e qualità di alto livello.",
+    "cta": "Prenotate il vostro tavolo oggi — e concedetevi una serata indimenticabile."
+  },
+  "menu": {
+    "title": "Il Nostro Menu",
+    "subtitle": "Creato con Passione, Servito con Orgoglio",
+    "signature": "Specialità dello Chef",
+    "categories": {
+      "sallata": "Insalate",
+      "antipasta": "Antipasti",
+      "primi": "Primi Piatti",
+      "secondi": "Secondi Piatti"
+    },
+    "items": {
+      "sallata": [
+        {
+          "name": "Insalata Verde",
+          "description": "Insalata mista, rucola, radicchio, pomodori secchi, olive, olio extravergine d'oliva, aceto, sale",
+          "price": "650 ALL"
+        },
+        {
+          "name": "Spinaci Saltati",
+          "description": "Spinaci freschi, pinoli, aglio, burro, olio extravergine d'oliva, sale",
+          "price": "700 ALL"
+        },
+        {
+          "name": "Insalata Caprese",
+          "description": "Mozzarella Ciliegine, pomodorini, basilico fresco, olio extravergine d'oliva, origano, sale",
+          "price": "700 ALL"
+        },
+        {
+          "name": "Insalata Roquefort",
+          "description": "Insalata mista, formaggio Roquefort, noci, miele, olio extravergine d'oliva, aceto d'uva, sale",
+          "price": "750 ALL"
+        },
+        {
+          "name": "Insalata di Rucola con Pinoli",
+          "description": "Rucola, pomodorini, mela verde, pinoli, formaggio Parmigiano, aceto d'uva, olio extravergine d'oliva, sale",
+          "price": "850 ALL"
+        },
+        {
+          "name": "Insalata di Bresaola",
+          "description": "Rucola, bresaola, formaggio Parmigiano, crema balsamica, olio extravergine d'oliva, sale",
+          "price": "850 ALL"
+        }
+      ],
+      "antipasta": [
+        {
+          "name": "Carpaccio di Triglia",
+          "description": "Marinato con olio extravergine d'oliva, limone, sale",
+          "price": "1300 ALL"
+        },
+        {
+          "name": "Carpaccio di Orata",
+          "description": "Marinato con olio extravergine d'oliva, limone, pepe rosa in grani, sale",
+          "price": "1300 ALL"
+        },
+        {
+          "name": "Carpaccio di Polpo",
+          "description": "Marinato con olio extravergine d'oliva, limone, pomodori secchi, rucola, sale",
+          "price": "1300 ALL"
+        },
+        {
+          "name": "Carpaccio di Pesce Spada",
+          "description": "Marinato con olio extravergine d'oliva, limone, cipolla bianca, sale",
+          "price": "1300 ALL"
+        },
+        {
+          "name": "Arancini",
+          "description": "Ripieni di riso e branzino; serviti con salsa aurora piccante",
+          "price": "600 ALL"
+        },
+        {
+          "name": "Piatto Misto per 2",
+          "description": "Selezione di antipasti caldi e freddi del nostro chef – tutti marinati alla perfezione",
+          "price": "3500 ALL"
+        },
+        {
+          "name": "Piatto Misto per 3",
+          "description": "Selezione di antipasti caldi e freddi del nostro chef – tutti marinati alla perfezione",
+          "price": "5500 ALL"
+        },
+        {
+          "name": "Piatto Misto per 4",
+          "description": "Selezione di antipasti caldi e freddi del nostro chef – tutti marinati alla perfezione",
+          "price": "7000 ALL"
+        },
+        {
+          "name": "Carpaccio di Manzo",
+          "description": "Con rucola, pomodori secchi, formaggio Parmigiano, olio extravergine d'oliva, limone, pepe, sale",
+          "price": "1600 ALL"
+        },
+        {
+          "name": "Vitello Tonnato",
+          "description": "Tagli selezionati di vitello; serviti con la nostra salsa tonnata fatta in casa",
+          "price": "1600 ALL"
+        },
+        {
+          "name": "Fritto di Mare",
+          "description": "Selezione di frutti di mare freschi: seppie, calamari, gamberi",
+          "price": "1600 ALL"
+        }
+      ],
+      "primi": [
+        {
+          "name": "Zuppa di Pesce",
+          "description": "Preparata con branzino, salmone, patate, carote, olio extravergine d'oliva, sale",
+          "price": "450 ALL"
+        },
+        {
+          "name": "Zuppa di Verdure",
+          "description": "Preparata con verdure miste, olio extravergine d'oliva, sale",
+          "price": "400 ALL"
+        },
+        {
+          "name": "Tagliatelle Nere al Nero di Seppia",
+          "description": "Tagliatelle nere fresche al nero di seppia, molluschi e crostacei freschi di stagione, aglio, basilico fresco, olio extravergine d'oliva, sale",
+          "price": "800 ALL",
+          "signature": true
+        },
+        {
+          "name": "Linguine ai Frutti di Mare",
+          "description": "Linguine fresche, molluschi e crostacei freschi di stagione, salsa di pomodoro, aglio, basilico fresco, olio extravergine d'oliva, sale",
+          "price": "800 ALL"
+        },
+        {
+          "name": "Tagliatelle al Ragù",
+          "description": "Tagliatelle fresche, salsa di pomodoro, carne macinata di vitello, latte, cipolla, carote, sedano, alloro, basilico fresco, olio extravergine d'oliva, sale",
+          "price": "800 ALL"
+        },
+        {
+          "name": "Risotto ai Frutti di Mare",
+          "description": "Riso Carnaroli, molluschi e crostacei freschi di stagione, olio extravergine d'oliva, cipolla, sale",
+          "price": "800 ALL"
+        },
+        {
+          "name": "Pappardelle alla Norcina",
+          "description": "Pappardelle fresche, salsiccia fresca di maiale, funghi freschi, formaggio Parmigiano, burro, olio extravergine d'oliva, sale",
+          "price": "900 ALL",
+          "signature": true
+        },
+        {
+          "name": "Orecchiette con Aragosta e Zucchine",
+          "description": "Orecchiette fresche, aragosta di profondità, zucchine, pomodorini, basilico fresco, olio extravergine d'oliva, sale",
+          "price": "900 ALL"
+        }
+      ],
+      "secondi": [
+        {
+          "name": "Salmone su Letto di Zucchine",
+          "description": "Salmone al forno - servito con salsa di zucchine - basilico fresco, olio extravergine d'oliva, pepe rosa in grani, sale",
+          "price": "1500 ALL",
+          "signature": true
+        },
+        {
+          "name": "Tagliata di Filetto di Vitello",
+          "description": "Filetto di vitello tagliato - servito con insalata di rucola, formaggio Parmigiano, crema balsamica, olio extravergine d'oliva, scaglie di sale marino",
+          "price": "1800 ALL"
+        },
+        {
+          "name": "Polpo alla Mediterranea",
+          "description": "Polpo fritto, salsa di pomodoro, cipolline, aglio, basilico fresco, olio extravergine d'oliva, sale",
+          "price": "1700 ALL"
+        },
+        {
+          "name": "Bistecca alla Fiorentina",
+          "description": "Costata di vitello tagliata e grigliata alla perfezione - servita con salsa sweet chili e salsa barbecue",
+          "price": "550 ALL/100g",
+          "signature": true
+        },
+        {
+          "name": "Tagliata Black Angus Picanha",
+          "description": "Filetto Black Angus Picanha tagliato - servito con insalata di radicchio, formaggio Parmigiano, crema balsamica, olio extravergine d'oliva, scaglie di sale marino",
+          "price": "600 ALL/100g"
+        },
+        {
+          "name": "Filetto di Pollo alla Griglia",
+          "description": "Filetto di pollo, olio extravergine d'oliva, sale - servito con insalata mista e salsa barbecue",
+          "price": "900 ALL"
+        },
+        {
+          "name": "Filetto di Pesce con Salsa ai Peperoni",
+          "description": "Branzino fresco grigliato; salsa con peperoni rossi, pomodori, panna da cucina, aglio, basilico, olio extravergine d'oliva, sale",
+          "price": "1400 ALL"
+        },
+        {
+          "name": "Pesce Fresco del Giorno",
+          "description": "*Chiedete al nostro staff per i dettagli*",
+          "price": "Prezzo di Mercato"
+        }
+      ]
+    }
+  },
+  "gallery": {
+    "title": "Galleria Culinaria",
+    "subtitle": "Un Viaggio Visivo Attraverso la Nostra Cucina"
+  },
+  "reservation": {
+    "title": "Prenota un Tavolo",
+    "subtitle": "Assicurati il Tuo Posto per un'Esperienza Indimenticabile",
+    "instant_confirmation": "Conferma Istantanea",
+    "premium_experience": "Esperienza Premium",
+    "memorable_moments": "Momenti Memorabili",
+    "why_reserve": "Perché Prenotare con Noi",
+    "guaranteed_table": "Tavolo Garantito",
+    "guaranteed_table_desc": "Il tuo posto perfetto ti aspetta",
+    "special_occasions": "Occasioni Speciali",
+    "special_occasions_desc": "Rendiamo memorabili le celebrazioni",
+    "any_group_size": "Qualsiasi Dimensione del Gruppo",
+    "any_group_size_desc": "Cene intime o grandi feste",
+    "popular_times": "Orari Popolari",
+    "lunch_service": "Servizio Pranzo",
+    "lunch_service_desc": "Perfetto per riunioni di lavoro",
+    "dinner_service": "Servizio Cena",
+    "dinner_service_desc": "Cene romantiche e familiari",
+    "book_early": "Prenota in anticipo per i weekend e le occasioni speciali",
+    "need_help": "Hai Bisogno di Aiuto?",
+    "chat_whatsapp": "Chatta su WhatsApp",
+    "call_restaurant": "Chiama il Ristorante",
+    "complete_reservation": "Completa la Tua Prenotazione",
+    "instant_confirmation_desc": "Conferma istantanea via WhatsApp • Nessuna attesa • Comunicazione diretta",
+    "personal_information": "Informazioni Personali",
+    "reservation_details": "Dettagli Prenotazione",
+    "date": "Data",
+    "time": "Ora",
+    "guests": "Ospiti",
+    "select_time": "Seleziona Ora",
+    "number_of_guests": "Numero di ospiti",
+    "special_occasion_optional": "Occasione Speciale (Opzionale)",
+    "select_occasion": "Seleziona un'occasione",
+    "special_requests_placeholder": "Richieste speciali, requisiti dietetici, preferenze di posto...",
+    "send_reservation": "Invia Richiesta di Prenotazione",
+    "instant_confirmation_footer": "Riceverai conferma istantanea via WhatsApp",
+    "experience_finest": "Vivi la migliore cucina italiana a Valona",
+    "complimentary_service": "Ogni prenotazione include servizio pane gratuito e attenzione personalizzata dal nostro team",
+    "form": {
+      "name": "Nome Completo",
+      "email": "Indirizzo Email",
+      "phone": "Numero di Telefono",
+      "date": "Data Preferita",
+      "time": "Orario Preferito",
+      "guests": "Numero di Ospiti",
+      "message": "Richieste Speciali"
+    }
+  },
+  "blog": {
+    "title": "Dalla Nostra Cucina",
+    "subtitle": "Storie, Tradizioni e Passione Culinaria",
+    "reserve_now": "Prenota il Tuo Tavolo",
+    "view_menu": "Vedi il Nostro Menu",
+    "behind_scenes": {
+      "title": "Dietro le Quinte",
+      "subtitle": "Dove avviene la magia culinaria",
+      "chef_section": {
+        "title": "Il Nostro Chef Maestro",
+        "description": "Lo Chef Ridi porta decenni di tradizione culinaria italiana in ogni piatto. La sua meticolosa attenzione ai dettagli e la passione per i sapori autentici assicurano che ogni piatto racconti una storia di patrimonio italiano ed eccellenza moderna.",
+        "chef_name": "Chef Ridi",
+        "chef_title": "Chef Esecutivo & Proprietario"
+      },
+      "fresh_daily": {
+        "title": "Selezione Fresca Quotidiana",
+        "description": "Ogni mattina, selezioniamo attentamente i migliori frutti di mare, carni pregiate e ingredienti più freschi. Il nostro impegno per la qualità significa che ogni piatto rappresenta il meglio della tradizione culinaria italiana.",
+        "fresh_daily_label": "Fresco Quotidiano",
+        "years_experience_label": "Anni di Esperienza",
+        "premium_quality_label": "Qualità Premium"
+      }
+    },
+    "culinary_artistry": {
+      "title": "La Nostra Arte Culinaria",
+      "subtitle": "Dagli antipasti al pesce fresco - ogni piatto racconta una storia",
+      "antipasti": {
+        "title": "Maestria negli Antipasti",
+        "description": "Ogni antipasto è un'opera d'arte, con i migliori frutti di mare preparati con tecniche italiane tradizionali e presentazione moderna."
+      },
+      "fresh_fish": {
+        "title": "Pesce Fresco Quotidiano",
+        "description": "Le nostre preparazioni di pesce intero sono caratterizzate dal pescato più fresco del giorno, sapientemente cotto al forno con la nostra speciale salsa dorata ed erbe mediterranee."
+      },
+      "chef_expertise": {
+        "title": "Competenza dello Chef",
+        "description": "Le mani esperte dello Chef Ridi trasformano ingredienti premium in capolavori culinari che onorano la tradizione italiana."
+      }
+    },
+    "article": {
+      "title": "Un Assaggio d'Italia nel Cuore di Valona: Scopri TRE FORCHETTE",
+      "intro": "Nella vibrante città costiera di Valona, dove l'Adriatico incontra lo Ionio, si trova una gemma culinaria che ridefinisce la ristorazione italiana — TRE FORCHETTE. Più di un semplice ristorante, è un'esperienza dove sapori, arte e ospitalità si uniscono in perfetta armonia.",
+      "sections": {
+        "tradition": {
+          "title": "Tradizione Italiana, Elevata",
+          "content": "Al TRE FORCHETTE, la cucina italiana non viene semplicemente servita — viene celebrata. Il nostro menu è un viaggio curato attraverso il ricco paesaggio culinario d'Italia, dove ricette tradizionali incontrano la finezza moderna. Ogni piatto è creato con ingredienti della più alta qualità, accuratamente selezionati per la loro freschezza, autenticità e capacità di risvegliare i vostri sensi."
+        },
+        "expertise": {
+          "title": "Competenza che Parla da Sola",
+          "content": "Il nostro team di chef porta oltre 20 anni di esperienza alla vostra tavola. Con radici profonde nella gastronomia italiana e una passione senza compromessi per l'eccellenza, trasformano ogni piatto in un'opera d'arte. Dalla pasta fatta a mano alle salse cotte lentamente e ai frutti di mare grigliati sapientemente, ogni elemento riflette un profondo rispetto per il sapore e la tradizione."
+        },
+        "luxury": {
+          "title": "Lusso in Ogni Dettaglio",
+          "content": "Entrate in un'atmosfera di eleganza e calore. Al TRE FORCHETTE, il servizio impeccabile e la presentazione lussuosa dei piatti non sono extra — sono standard. Il nostro staff è formato per anticipare le vostre esigenze e assicurare che ogni momento della vostra visita sia speciale, personale e veramente italiano."
+        },
+        "experience": {
+          "title": "Più di un Pasto — Un Ricordo",
+          "content": "Cenare al TRE FORCHETTE è un viaggio gastronomico. Che vi uniate a noi per una cena romantica, una celebrazione familiare o una serata tranquilla di buon vino e conversazione, vi troverete immersi in un'atmosfera dove stile, gusto e ospitalità sincera brillano."
+        }
+      },
+      "location": "Situato nel cuore di Valona, TRE FORCHETTE è la vostra destinazione per la cucina italiana autentica, magistralmente preparata e splendidamente servita.",
+      "cta": "Prenotate il vostro tavolo oggi e lasciate che vi trattiamo con una serata di eleganza, tradizione e sapore indimenticabile.",
+      "welcome": "Benvenuti a TRE FORCHETTE",
+      "tagline": "Dove ogni boccone racconta una storia."
+    },
+    "highlights": {
+      "authentic": {
+        "title": "Ricette Autentiche",
+        "description": "Ricette italiane tradizionali tramandate attraverso le generazioni, preparate con tecniche moderne e i migliori ingredienti."
+      },
+      "excellence": {
+        "title": "Eccellenza Culinaria",
+        "description": "Oltre 20 anni di esperienza nella gastronomia italiana, creando capolavori che onorano la tradizione abbracciando l'innovazione."
+      },
+      "hospitality": {
+        "title": "Ospitalità Italiana",
+        "description": "Servizio caloroso e personale che fa sentire ogni ospite come in famiglia, creando ricordi che durano molto dopo la fine del pasto."
+      }
+    }
+  },
+  "reviews": {
+    "title": "Cosa Dicono i Nostri Ospiti",
+    "subtitle": "Testimonianze dai Nostri Stimati Clienti",
+    "items": [
+      {
+        "name": "Ana L",
+        "rating": 5,
+        "text": "Ristorante carino. Ottimo cibo, ottimo vino e personale molto gentile. Piuttosto elegante. Abbiamo preso la pasta, entrambi i piatti erano freschi e gustosi. Consiglio vivamente"
+      },
+      {
+        "name": "Cassandra R",
+        "rating": 5,
+        "text": "Cibo e servizio davvero buoni per il prezzo. Consiglio questo ristorante se volete qualcosa di un po' elegante ma accessibile."
+      },
+      {
+        "name": "Tamara M",
+        "rating": 5,
+        "text": "Cibo delizioso, sia il piatto di pasta che il dessert. E anche un'ottima cura. Atmosfera molto buona. Super consigliato"
+      },
+      {
+        "name": "Константин А",
+        "rating": 5,
+        "text": "Il miglior ristorante di Valona. Servizio VIP, cucina incredibilmente deliziosa, antipasto in omaggio. Consiglio vivamente di visitarlo."
+      },
+      {
+        "name": "Hulio U",
+        "rating": 5,
+        "text": "Cibo ottimo e personale eccellente, dovreste provare l'esperienza in questo ristorante, è una felicità garantita quindi andate lì e godetevi."
+      },
+      {
+        "name": "Saeed A",
+        "rating": 5,
+        "text": "È stata una delle migliori esperienze per il cibo e la bistecca era ottima, anche il personale è gentile, HO DAVVERO APPREZZATO OGNI SINGOLO MOMENTO LÌ DENTRO."
+      }
+    ],
+    "rating": {
+      "score": "4.8/5",
+      "count": "Basato su oltre 700 recensioni"
+    },
+    "tripadvisor": {
+      "link": "https://www.tripadvisor.com/Restaurant_Review-g678774-d15610273-Reviews-Tre_Forchette_Restaurant-Vlore_Vlore_County.html",
+      "cta": "Vedi tutte le nostre recensioni su TripAdvisor",
+      "ranking": "Classificato al #4 su 293 ristoranti a Valona",
+      "tagline": "Siamo orgogliosi di essere tra i migliori ristoranti di Valona!"
+    }
+  },
+  "contact": {
+    "title": "Visitaci",
+    "subtitle": "Vivi l'Esperienza della Cucina Italiana Autentica",
+    "hours": "Orari di Apertura",
+    "phone": "Telefono",
+    "email": "Email",
+    "address": "Indirizzo",
+    "social": "Seguici"
+  },
+  "footer": {
+    "copyright": "© 2024 Tre Forchette. Tutti i diritti riservati.",
+    "made_with": "Fatto con ❤️ per la cucina italiana autentica"
+  }
+}

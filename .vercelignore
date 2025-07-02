@@ -1,0 +1,24 @@
+# Vercel ignore file - specify what NOT to ignore
+
+# Don't ignore the public directory and its contents
+!public/
+!public/**/*
+
+# Don't ignore specific image files
+!**/*.jpg
+!**/*.jpeg
+!**/*.png
+!**/*.gif
+!**/*.webp
+!**/*.svg
+
+# Don't ignore the out directory (build output)
+!out/
+!out/**/*
+
+# Standard ignores
+node_modules/
+.next/
+.env*.local
+.DS_Store
+*.log

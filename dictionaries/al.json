@@ -1,0 +1,413 @@
+{
+  "nav": {
+    "home": "Kryefaqja",
+    "about": "Rreth Nesh",
+    "menu": "Menyja",
+    "gallery": "Galeria",
+    "blog": "Blog",
+    "reservation": "Rezervimi",
+    "reviews": "Vlerësimet",
+    "contact": "Kontakti"
+  },
+  "hero": {
+    "title": "TRE FORCHETTE",
+    "subtitle": "Përsosmëria Kulinare Italiane Autentike",
+    "tagline": "Ku tradita takon pasionin në çdo pjatë",
+    "cta_reservation": "Rezervo një Tavolinë",
+    "cta_menu": "Shiko Menynë"
+  },
+  "about": {
+    "title": "Mirë se vini në TRE FORCHETTE",
+    "subtitle": "Ku Kuzina Italiane Takon Elegancën",
+    "greeting": "Miq të dashur,",
+    "content": "Jemi të kënaqur t'ju ftojmë në TRE FORCHETTE – një nga restorantet më të rafinuara në qytetin e Vlorës, ku kuzina italiane zbulohet në të gjithë finecën dhe thellësinë e shijës së saj.",
+    "features": {
+      "ingredients": "Vetëm përbërës të cilësisë më të lartë",
+      "experience": "Kuzhinierë me mbi 20 vjet përvojë",
+      "service": "Shërbim i papërsosur dhe prezantim luksoze i pjatave"
+    },
+    "mission": "Çdo vizitë në TRE FORCHETTE është një udhëtim gastronomik ku traditat italiane përzihen me elegancën, vëmendjen ndaj detajeve dhe mikpritjen e zemrës.",
+    "invitation": "Ejani dhe shijoni një atmosferë stili, shije dhe cilësie të nivelit të lartë.",
+    "cta": "Rezervoni tavolinën tuaj sot — dhe dhuroni vetes një mbrëmje të paharrueshme."
+  },
+  "menu": {
+    "title": "Menyja Jonë",
+    "subtitle": "Krijuar me Pasion, Shërbyer me Krenari",
+    "signature": "Specialitetet e Kuzhinierit",
+    "categories": {
+      "sallata": "Sallata",
+      "antipasta": "Antipasta",
+      "primi": "Pjata të Para",
+      "secondi": "Pjata të Dyta"
+    },
+    "items": {
+      "sallata": [
+        {
+          "name": "Sallatë Green",
+          "description": "Sallatë jeshile, rukola, radikio, domate të thara nën vaj, ulliri, vaj ulliri ekstra i virgjër, uthull, kripë",
+          "price": "650 ALL"
+        },
+        {
+          "name": "Spinaq në Tigan",
+          "description": "Spinaq i freskët, arrë moskat, hudhra, gjalpë, vaj ulliri ekstra i virgjër, kripë",
+          "price": "700 ALL"
+        },
+        {
+          "name": "Sallatë Caprese",
+          "description": "Mozzarella Ciliegine, pomodorini, brozilok i freskët, vaj ulliri ekstra i virgjër, rigon, kripë",
+          "price": "700 ALL"
+        },
+        {
+          "name": "Sallatë Roquefort",
+          "description": "Sallatë mikse, djathë Roquefort, arra, mjedal, mjaltë, vaj ulliri ekstra i virgjër, uthull rrushi, kripë",
+          "price": "750 ALL"
+        },
+        {
+          "name": "Sallatë Trofte me Fara Pishe",
+          "description": "Rukola, trofte, mollë jeshile, fara pishe, djathë parmigiano, uthull rrushi, vaj ulliri ekstra i virgjër, kripë",
+          "price": "850 ALL"
+        },
+        {
+          "name": "Sallatë Bresaola",
+          "description": "Rukola, bresaola, djathë parmigiano, krem balsami, vaj ulliri ekstra i virgjër, kripë",
+          "price": "850 ALL"
+        }
+      ],
+      "antipasta": [
+        {
+          "name": "Carpaccio Peshku Rufio",
+          "description": "marinuar me vaj ulliri ekstra të virgjër, limon, kripë",
+          "price": "1300 ALL"
+        },
+        {
+          "name": "Carpaccio Peshku Gofë",
+          "description": "marinuar me vaj ulliri ekstra të virgjër, limon, piper të kuq kokërr, kripë",
+          "price": "1300 ALL"
+        },
+        {
+          "name": "Carpaccio Oktapodi",
+          "description": "marinuar me vaj ulliri ekstra të virgjër, limon, domate të thara nën vaj, rukola, kripë",
+          "price": "1300 ALL"
+        },
+        {
+          "name": "Carpaccio Peshku Shpatë",
+          "description": "marinuar me vaj ulliri ekstra të virgjër, limon, bar qepë, kripë",
+          "price": "1300 ALL"
+        },
+        {
+          "name": "Arancini",
+          "description": "të mbushura me oriz dhe peshk koce; shoqëruar me salcë aurora pikante",
+          "price": "600 ALL"
+        },
+        {
+          "name": "Brizo për 2",
+          "description": "Përzgjedhje antipastash miks të ngrohta dhe të ftohta nga shefi i kuzhinës – të gjitha të marinuara në përsosmëri",
+          "price": "3500 ALL"
+        },
+        {
+          "name": "Brizo për 3",
+          "description": "Përzgjedhje antipastash miks të ngrohta dhe të ftohta nga shefi i kuzhinës – të gjitha të marinuara në përsosmëri",
+          "price": "5500 ALL"
+        },
+        {
+          "name": "Brizo për 4",
+          "description": "Përzgjedhje antipastash miks të ngrohta dhe të ftohta nga shefi i kuzhinës – të gjitha të marinuara në përsosmëri",
+          "price": "7000 ALL"
+        },
+        {
+          "name": "Carpaccio Vici",
+          "description": "me rukola, domate të thara nën vaj, djathë parmigiano, vaj ulliri ekstra i virgjër, limon, piper, kripë",
+          "price": "1600 ALL"
+        },
+        {
+          "name": "Vitel Tone'",
+          "description": "pjesë e përzgjedhur e vicit; shoqëruar me salcë tono të përgatittur nga ne",
+          "price": "1600 ALL"
+        },
+        {
+          "name": "Friturë Deti",
+          "description": "Përzgjedhje fruta deti të freskëta: sepie, kallamar, karkalec",
+          "price": "1600 ALL"
+        }
+      ],
+      "primi": [
+        {
+          "name": "Supë Peshku",
+          "description": "E përgatitür me peshk koce, peshk salmon, patate, karrotë, vaj ulliri ekstra i virgjër, kripë",
+          "price": "450 ALL"
+        },
+        {
+          "name": "Supë Perime",
+          "description": "E përgatitür me miks perimesh, vaj ulliri ekstra i virgjër, kripë",
+          "price": "400 ALL"
+        },
+        {
+          "name": "Tagliatelle me Nero di Seppia",
+          "description": "Tagliatelle të zeza të përgatitüra nga ne me bojën e sepies, molusqe dhe krostacel të freskët sipas stinës, hudhra, borzilok i freskët, vaj ulliri ekstra i virgjër, kripë",
+          "price": "800 ALL",
+          "signature": true
+        },
+        {
+          "name": "Linguine me Fruta Deti",
+          "description": "Linguine të përgatitüra nga ne, molusqe dhe krostacel të freskët sipas stinës, salcë domate, hudhra, borzilok i freskët, vaj ulliri ekstra i virgjër, kripë",
+          "price": "800 ALL"
+        },
+        {
+          "name": "Tagliatelle me Ragu",
+          "description": "Tagliatelle të përgatitüra nga ne, salcë domate, mish i grirë vici, qumësht, qepë, karrotë, selino, dafinë, borzilok i freskët, vaj ulliri ekstra i virgjër, kripë",
+          "price": "800 ALL"
+        },
+        {
+          "name": "Risoto me Fruta Deti",
+          "description": "Oriz Carnaroli, molusqe dhe krostacel të freskët sipas stinës, vaj ulliri ekstra i virgjër, qepë, kripë",
+          "price": "800 ALL"
+        },
+        {
+          "name": "Pappardelle alla Norcina",
+          "description": "Pappardelle të përgatitüra nga ne, salçiçe e freskët derri, kërpudha të freskëta, djathë parmigiano, gjalpë, vaj ulliri ekstra i virgjër, kripë",
+          "price": "900 ALL",
+          "signature": true
+        },
+        {
+          "name": "Orecchiette me Karkalec dhe Kungull",
+          "description": "Orecchiette e freskët, karkalec thellësie, kungull, pomodorini, brozilok i freskët, vaj ulliri ekstra i virgjër, kripë",
+          "price": "900 ALL"
+        }
+      ],
+      "secondi": [
+        {
+          "name": "Salmon në Shtrat Kungulli",
+          "description": "Salmon e furrë - shërbyer me salcë kungulli - borzilok i freskët, vaj ulliri ekstra i virgjër, piper i kuq kokërr, kripë",
+          "price": "1500 ALL",
+          "signature": true
+        },
+        {
+          "name": "Tagliata Fileto Vici",
+          "description": "Fileto vici e trajtuär - shërbyer me sallatë rukola, djathë parmigiano, krem balsami, vaj ulliri ekstra i virgjër, kripë deti flakes",
+          "price": "1800 ALL"
+        },
+        {
+          "name": "Oktapod Mediterran",
+          "description": "Oktapod friturë, salcë domate, qepë të vogla, hudhra, borzilok i freskët, vaj ulliri ekstra i virgjër, kripë",
+          "price": "1700 ALL"
+        },
+        {
+          "name": "Bistecca alla Fiorentina",
+          "description": "Bërrolla vici e trajtuär dhe e pjekur në përsosmëri - shërbyer me salcë sweet chilli dhe salcë barbecue",
+          "price": "550 ALL/100 g",
+          "signature": true
+        },
+        {
+          "name": "Tagliata Black Angus Picanha",
+          "description": "Fileto Black Angus Picanha e trajtuär - shërbyer me sallatë radikio, djathë parmigiano, krem balsami, vaj ulliri ekstra i virgjër, kripë deti flakes",
+          "price": "600 ALL/100 g"
+        },
+        {
+          "name": "Fileto Pule në Zgarë",
+          "description": "Fileto pule, vaj ulliri ekstra i virgjër, kripë - shërbyer me sallatë miks dhe salcë barbecue",
+          "price": "900 ALL"
+        },
+        {
+          "name": "Fileto Peshku me Salcë Specash",
+          "description": "Peshk i freskët koce në zgarë; salcë me speca të kuqe, domate, pana kuzhinë, hudhra, borzilok, vaj ulliri ekstra i virgjër, kripë",
+          "price": "1400 ALL"
+        },
+        {
+          "name": "Peshk i Freskët i Ditës",
+          "description": "*Pyjet personalin për detaje*",
+          "price": "Çmimi i Tregut"
+        }
+      ]
+    }
+  },
+  "gallery": {
+    "title": "Galeria Kulinare",
+    "subtitle": "Një Udhëtim Vizual Përmes Kuzhinës Sonë"
+  },
+  "reservation": {
+    "title": "Bëni një Rezervim",
+    "subtitle": "Siguroni Tavolinën Tuaj për një Përvojë të Paharrueshme",
+    "instant_confirmation": "Konfirmim i Menjëhershëm",
+    "premium_experience": "Përvojë Premium",
+    "memorable_moments": "Momente të Paharrueshme",
+    "why_reserve": "Pse të Rezervoni me Ne",
+    "guaranteed_table": "Tavolinë e Garantuar",
+    "guaranteed_table_desc": "Vendi juaj i përsosur ju pret",
+    "special_occasions": "Raste të Veçanta",
+    "special_occasions_desc": "I bëjmë festimet të paharrueshme",
+    "any_group_size": "Çdo Madhësi Grupi",
+    "any_group_size_desc": "Darka intime deri në festa të mëdha",
+    "popular_times": "Oraret Popullore",
+    "lunch_service": "Shërbimi i Drekës",
+    "lunch_service_desc": "Perfekt për takime biznesi",
+    "dinner_service": "Shërbimi i Darkës",
+    "dinner_service_desc": "Darka romantike dhe familjare",
+    "book_early": "Rezervoni herët për fundjavat dhe rastet e veçanta",
+    "need_help": "Keni Nevojë për Ndihmë?",
+    "chat_whatsapp": "Bisedoni në WhatsApp",
+    "call_restaurant": "Telefononi Restorantin",
+    "complete_reservation": "Plotësoni Rezervimin Tuaj",
+    "instant_confirmation_desc": "Konfirmim i menjëhershëm përmes WhatsApp • Pa pritje • Komunikim i drejtpërdrejtë",
+    "personal_information": "Informacione Personale",
+    "reservation_details": "Detajet e Rezervimit",
+    "date": "Data",
+    "time": "Ora",
+    "guests": "Mysafirë",
+    "select_time": "Zgjidhni Orën",
+    "number_of_guests": "Numri i mysafirëve",
+    "special_occasion_optional": "Rast i Veçantë (Opsional)",
+    "select_occasion": "Zgjidhni një rast",
+    "special_requests_placeholder": "Kërkesa të veçanta, kërkesat dietike, preferencat e uljes...",
+    "send_reservation": "Dërgo Kërkesën për Rezervim",
+    "instant_confirmation_footer": "Do të merrni konfirmim të menjëhershëm përmes WhatsApp",
+    "experience_finest": "Përjetoni kuzhinën më të mirë italiane në Vlorë",
+    "complimentary_service": "Çdo rezervim përfshin shërbim falas buke dhe vëmendje të personalizuar nga ekipi ynë",
+    "form": {
+      "name": "Emri i Plotë",
+      "email": "Adresa e Email-it",
+      "phone": "Numri i Telefonit",
+      "date": "Data e Preferuar",
+      "time": "Ora e Preferuar",
+      "guests": "Numri i Mysafirëve",
+      "message": "Kërkesa të Veçanta"
+    }
+  },
+  "blog": {
+    "title": "Nga Kuzhina Jonë",
+    "subtitle": "Histori, Tradita dhe Pasion Kulinar",
+    "reserve_now": "Rezervoni Tavolinën Tuaj",
+    "view_menu": "Shikoni Menynë Tonë",
+    "behind_scenes": {
+      "title": "Prapa Skenave",
+      "subtitle": "Ku ndodh magjia kulinare",
+      "chef_section": {
+        "title": "Kuzhinieri Ynë Mjeshtër",
+        "description": "Shefi Ridi sjell dekada të traditës kulinare italiane në çdo pjatë. Vëmendja e tij e detajuar dhe pasioni për shijet autentike sigurojnë që çdo pjatë tregon një histori të trashëgimisë italiane dhe përsosmërisë moderne.",
+        "chef_name": "Shefi Ridi",
+        "chef_title": "Kuzhinier Ekzekutiv & Pronar"
+      },
+      "fresh_daily": {
+        "title": "Përzgjedhje e Freskët Ditore",
+        "description": "Çdo mëngjes, ne zgjedhim me kujdes frutat më të mira të detit, mishin premium dhe përbërësit më të freskët. Angazhimi ynë për cilësinë do të thotë që çdo pjatë përfaqëson më të mirën e traditës kulinare italiane.",
+        "fresh_daily_label": "Freskët Çdo Ditë",
+        "years_experience_label": "Vite Përvojë",
+        "premium_quality_label": "Cilësi Premium"
+      }
+    },
+    "culinary_artistry": {
+      "title": "Artizanati Ynë Kulinar",
+      "subtitle": "Nga antipasta te peshku i freskët - çdo pjatë tregon një histori",
+      "antipasti": {
+        "title": "Mjeshtëria e Antipastave",
+        "description": "Çdo antipastë është një vepër arti, që përmban frutat më të mira të detit të përgatitura me teknika tradicionale italiane dhe prezantim modern."
+      },
+      "fresh_fish": {
+        "title": "Peshk i Freskët Çdo Ditë",
+        "description": "Përgatitjet tona të peshkut të plotë përmbajnë peshkimin më të freskët të ditës, të pjekur me mjeshtëri me salcën tonë të veçantë të artë dhe erëza mesdhetare."
+      },
+      "chef_expertise": {
+        "title": "Ekspertiza e Shefit",
+        "description": "Duart e aftësuara të Shefit Ridi transformojnë përbërësit premium në kryevepra kulinare që nderojnë traditën italiane."
+      }
+    },
+    "article": {
+      "title": "Një Shije e Italisë në Zemër të Vlorës: Zbuloni TRE FORCHETTE",
+      "intro": "Në qytetin e gjallë bregdetar të Vlorës, ku Adriatiku takon Jonin, gjendet një gur i çmuar kulinar që ridefinon ngrënien italiane — TRE FORCHETTE. Më shumë se thjesht një restorant, është një përvojë ku shijet, artizanati dhe mikpritja bashkohen në harmoni të përsosur.",
+      "sections": {
+        "tradition": {
+          "title": "Tradita Italiane, e Lartësuar",
+          "content": "Në TRE FORCHETTE, kuzina italiane nuk thjesht shërbehet — festohet. Menyja jonë është një udhëtim i kuruar përmes peizazhit të pasur kulinar të Italisë, ku recetat e kohëzgjatura takojnë finecën moderne. Çdo pjatë krijohet vetëm me përbërës të cilësisë më të lartë, të zgjedhur me kujdes për freskësinë, autenticitetin dhe aftësinë për të zgjuar shqisat tuaja."
+        },
+        "expertise": {
+          "title": "Ekspertizë që Flet për Veten",
+          "content": "Ekipi ynë i kuzhinierëve sjell mbi 20 vjet përvojë në tavolinën tuaj. Me rrënjë të thella në gastronomin italiane dhe një pasion të pakompromis për përsosmërinë, ata transformojnë çdo pjatë në një vepër arti. Nga makaronat e bëra me dorë te salcat e ziera ngadalë dhe frutat e detit të pjekura me ekspertizë, çdo element reflekton një respekt të thellë për shijen dhe traditën."
+        },
+        "luxury": {
+          "title": "Luksi në Çdo Detaj",
+          "content": "Hyni në një atmosferë elegance dhe ngrohtësie. Në TRE FORCHETTE, shërbimi i papërsosur dhe prezantimi luksoze i pjatave nuk janë ekstra — janë standarde. Personeli ynë është trajnuar të parashikojë nevojat tuaja dhe të sigurojë që çdo moment i vizitës suaj të ndjehet special, personal dhe vërtet italian."
+        },
+        "experience": {
+          "title": "Më Shumë se një Vakt — një Kujtim",
+          "content": "Të hash në TRE FORCHETTE është një udhëtim gastronomik. Qoftë duke u bashkuar me ne për një darkë romantike, një festim familjar, ose një mbrëmje të qetë me verë të mirë dhe bisedë, do të gjeni veten të zhytur në një atmosferë ku stili, shija dhe mikpritja e zemrës shkëlqejnë."
+        }
+      },
+      "location": "I vendosur në zemër të Vlorës, TRE FORCHETTE është destinacioni juaj për kuzhinë italiane autentike, të përgatitur me mjeshtëri dhe të shërbyer bukur.",
+      "cta": "Rezervoni tavolinën tuaj sot dhe lini të ju trajtojmë me një mbrëmje elegance, tradite dhe shije të paharrueshme.",
+      "welcome": "Benvenuti a TRE FORCHETTE",
+      "tagline": "Ku çdo kafshim tregon një histori."
+    },
+    "highlights": {
+      "authentic": {
+        "title": "Receta Autentike",
+        "description": "Receta tradicionale italiane të trashëguara përmes brezave, të përgatitura me teknika moderne dhe përbërësit më të mirë."
+      },
+      "excellence": {
+        "title": "Përsosmëri Kulinare",
+        "description": "Mbi 20 vjet ekspertizë në gastronomin italiane, duke krijuar kryevepra që nderojnë traditën duke përqafuar inovacionin."
+      },
+      "hospitality": {
+        "title": "Mikpritje Italiane",
+        "description": "Shërbim i ngrohtë dhe personal që bën çdo mysafir të ndjehet si familje, duke krijuar kujtime që zgjasin shumë pas përfundimit të vaktit."
+      }
+    }
+  },
+  "reviews": {
+    "title": "Çfarë Thonë Mysafirët Tanë",
+    "subtitle": "Dëshmi nga Klientët Tanë të Vlerësuar",
+    "items": [
+      {
+        "name": "Ana L",
+        "rating": 5,
+        "text": "Restorant i bukur. Ushqim i shkëlqyer, verë e shkëlqyer dhe staf shumë i mirë. Mjaft elegant. Ne porositëm pasta, të dyja pjatat ishin të freskëta dhe të shijshme. Rekomandoj fuqimisht"
+      },
+      {
+        "name": "Cassandra R",
+        "rating": 5,
+        "text": "Ushqim dhe shërbim vërtet i mirë për çmimin. Rekomandoj këtë restorant nëse dëshironi diçka pak luksoze por të përballueshme."
+      },
+      {
+        "name": "Tamara M",
+        "rating": 5,
+        "text": "Ushqim i shijshëm, si pjata e pastave ashtu edhe ëmbëlsira. Dhe kujdes shumë i mirë gjithashtu. Atmosferë shumë e mirë. Super e rekomanduar"
+      },
+      {
+        "name": "Константин А",
+        "rating": 5,
+        "text": "Restoranti më i mirë në Vlorë. Shërbim VIP, kuzhinë jashtëzakonisht e shijshme, starter si dhuratë. Unë definitivisht rekomandoj vizitën."
+      },
+      {
+        "name": "Hulio U",
+        "rating": 5,
+        "text": "Ushqimi më i mirë dhe stafi i shkëlqyer, duhet të provoni përvojën në këtë restorant, është një lumturi e garantuar, kështu që shkoni atje dhe shijoni."
+      },
+      {
+        "name": "Saeed A",
+        "rating": 5,
+        "text": "Ishte një nga përvojat më të mira për ushqim dhe bifteku ishte i shkëlqyer, gjithashtu stafi është i sjellshëm, VËRTET E SHIJOVA ÇDO MOMENT TË VETËM ATJE."
+      }
+    ],
+    "rating": {
+      "score": "4.8/5",
+      "count": "Bazuar në 700+ vlerësime"
+    },
+    "tripadvisor": {
+      "link": "https://www.tripadvisor.com/Restaurant_Review-g678774-d15610273-Reviews-Tre_Forchette_Restaurant-Vlore_Vlore_County.html",
+      "cta": "Shikoni të gjitha vlerësimet tona në TripAdvisor",
+      "ranking": "Renditur #4 nga 293 restorante në Vlorë",
+      "tagline": "Jemi krenarë që jemi ndër restorantet më të mira në Vlorë!"
+    }
+  },
+  "contact": {
+    "title": "Na Vizitoni",
+    "subtitle": "Përjetoni Ngrënien Italiane Autentike",
+    "hours": "Oraret e Hapjes",
+    "phone": "Telefoni",
+    "email": "Email",
+    "address": "Adresa",
+    "social": "Na Ndiqni"
+  },
+  "footer": {
+    "copyright": "© 2024 Tre Forchette. Të gjitha të drejtat e rezervuara.",
+    "made_with": "Bërë me ❤️ për kuzhinën italiane autentike"
+  }
+}
