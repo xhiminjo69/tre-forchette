@@ -20,7 +20,7 @@ export default function HeroSection({ dict }: HeroSectionProps) {
   }, [])
 
   return (
-    <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden w-full max-w-full">
       {/* Background Image with production-ready fallback */}
       <div className="absolute inset-0">
         {imageLoaded ? (
@@ -48,7 +48,7 @@ export default function HeroSection({ dict }: HeroSectionProps) {
       <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/40" />
 
       {/* Content - Mobile Optimized */}
-      <div className="relative z-10 text-center text-white px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto pt-16 sm:pt-20">
+      <div className="relative z-10 text-center text-white px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto pt-16 sm:pt-20 w-full overflow-x-hidden">
         {/* Logo - Prominent fork design as shown in the image */}
         <div className="flex justify-center mb-8 sm:mb-10">
           <div className="filter-glow">
@@ -67,17 +67,17 @@ export default function HeroSection({ dict }: HeroSectionProps) {
         </div>
 
         {/* Title - Mobile optimized typography */}
-        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold font-playfair mb-3 sm:mb-4 tracking-tight drop-shadow-2xl leading-tight">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold font-playfair mb-3 sm:mb-4 tracking-tight drop-shadow-2xl leading-tight break-words">
           {dict.hero.title}
         </h1>
 
         {/* Subtitle - Responsive text */}
-        <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-3 sm:mb-4 font-light drop-shadow-lg text-yellow-100 leading-relaxed">
+        <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-3 sm:mb-4 font-light drop-shadow-lg text-yellow-100 leading-relaxed break-words">
           {dict.hero.subtitle}
         </p>
 
         {/* Tagline - Mobile friendly */}
-        <p className="text-sm sm:text-base lg:text-lg mb-6 sm:mb-8 max-w-2xl mx-auto opacity-95 drop-shadow-md text-gray-100 leading-relaxed px-2">
+        <p className="text-sm sm:text-base lg:text-lg mb-6 sm:mb-8 max-w-2xl mx-auto opacity-95 drop-shadow-md text-gray-100 leading-relaxed px-2 break-words">
           {dict.hero.tagline}
         </p>
 
