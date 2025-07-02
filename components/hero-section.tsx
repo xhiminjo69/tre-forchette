@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import ReliableImage from "./reliable-image"
+import { useBasePath } from "@/hooks/use-base-path"
 
 interface HeroSectionProps {
   dict: any
@@ -10,13 +11,14 @@ interface HeroSectionProps {
 
 export default function HeroSection({ dict }: HeroSectionProps) {
   const [imageLoaded, setImageLoaded] = useState(false)
+  const basePath = useBasePath()
 
   useEffect(() => {
     const img = new Image()
     img.onload = () => setImageLoaded(true)
     img.onerror = () => setImageLoaded(false)
-    img.src = "/images/hero-seafood-spectacular.jpg"
-  }, [])
+    img.src = `${basePath}/images/hero-seafood-spectacular.jpg`
+  }, [basePath])
 
   return (
     <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
@@ -26,7 +28,7 @@ export default function HeroSection({ dict }: HeroSectionProps) {
           <div
             className="w-full h-full bg-cover bg-center bg-no-repeat transition-opacity duration-1000"
             style={{
-              backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url('/images/hero-seafood-spectacular.jpg')`,
+              backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url('${basePath}/images/hero-seafood-spectacular.jpg')`,
               backgroundSize: "cover",
               backgroundPosition: "center center",
             }}
@@ -52,7 +54,7 @@ export default function HeroSection({ dict }: HeroSectionProps) {
         <div className="flex justify-center mb-8 sm:mb-10">
           <div className="filter-glow">
             <ReliableImage
-              src="/images/tre-forchette-logo.png"
+              src={`${basePath}/images/tre-forchette-logo.png`}
               alt="Tre Forchette Logo"
               className="h-32 sm:h-40 lg:h-48 w-auto drop-shadow-xl"
               width={200}
