@@ -1,5 +1,4 @@
-import ImageFallback from "./image-fallback"
-import { getImagePath } from "@/lib/utils/image-path"
+import ReliableImage from "./reliable-image"
 
 interface AboutSectionProps {
   dict: any
@@ -64,14 +63,16 @@ export default function AboutSection({ dict }: AboutSectionProps) {
           {/* Image - Mobile optimized */}
           <div className="relative order-1 lg:order-2">
             <div className="aspect-square sm:aspect-[4/3] lg:aspect-square rounded-2xl overflow-hidden shadow-2xl glass-card">
-              <ImageFallback
-                src={getImagePath("images/seafood-tasting-menu.jpg?v=1")}
+              <ReliableImage
+                src="/images/seafood-tasting-menu.jpg?v=1"
                 alt="Exquisite seafood tasting menu with oysters, shrimp and delicacies at TRE FORCHETTE"
                 className="w-full h-full object-cover"
                 width={600}
                 height={600}
                 priority={true}
                 fallbackText="SEAFOOD TASTING MENU"
+                cdnFallback="seafoodRisotto"
+                unoptimized={true}
               />
             </div>
 

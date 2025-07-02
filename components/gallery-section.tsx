@@ -284,6 +284,8 @@ export default function GallerySection({ dict }: GallerySectionProps) {
                   width={200}
                   height={200}
                   cdnFallback={image.cdnFallback}
+                  priority={true}
+                  unoptimized={false}
                 />
                 {index === currentIndex && (
                   <div className="absolute inset-0 bg-red-800/20 border-2 border-red-800 rounded-lg"></div>

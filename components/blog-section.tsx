@@ -1,54 +1,13 @@
 "use client"
 
-import Image from "next/image"
 import { useState } from "react"
-import { getImagePath } from "@/lib/utils/image-path"
+import ReliableImage from "./reliable-image"
 
 interface BlogSectionProps {
   dict: any
 }
 
-// Image with fallback component
-function BlogImage({
-  src,
-  alt,
-  className,
-  width = 400,
-  height = 300,
-}: {
-  src: string
-  alt: string
-  className: string
-  width?: number
-  height?: number
-}) {
-  const [imageError, setImageError] = useState(false)
-
-  if (imageError) {
-    return (
-      <div className={`bg-gray-200 flex items-center justify-center ${className}`}>
-        <div className="text-center p-4">
-          <div className="text-4xl mb-2">🍽️</div>
-          <div className="text-sm text-gray-600">TRE FORCHETTE</div>
-          <div className="text-xs text-gray-500">{alt}</div>
-        </div>
-      </div>
-    )
-  }
-
-  return (
-    <Image
-      src={src || getImagePath("placeholder.svg")}
-      alt={alt}
-      width={width}
-      height={height}
-      className={className}
-      onError={() => setImageError(true)}
-      quality={85}
-      priority={false}
-    />
-  )
-}
+// Using the unified ReliableImage component instead of a custom BlogImage
 
 export default function BlogSection({ dict }: BlogSectionProps) {
   return (
@@ -97,12 +56,13 @@ export default function BlogSection({ dict }: BlogSectionProps) {
                   </div>
                 </div>
                 <div className="relative">
-                  <BlogImage
-                    src={getImagePath("images/blog/antipasti-selection-golden-tray.jpg")}
+                  <ReliableImage
+                    src="/images/blog/antipasti-selection-golden-tray.jpg"
                     alt="Elegant antipasti selection with 10 seafood dishes"
                     className="w-full h-80 object-cover rounded-xl shadow-lg"
                     width={400}
                     height={320}
+                    fallbackType="dish"
                   />
                   <div className="absolute -bottom-4 -right-4 bg-red-800 text-white p-4 rounded-lg shadow-lg">
                     <div className="text-center">
@@ -116,12 +76,13 @@ export default function BlogSection({ dict }: BlogSectionProps) {
               {/* Chef Expertise Section with Image */}
               <div className="grid lg:grid-cols-2 gap-12 mb-16">
                 <div className="relative order-2 lg:order-1">
-                  <BlogImage
-                    src={getImagePath("images/blog/chef-ridi-cutting-steak.jpg")}
+                  <ReliableImage
+                    src="/images/blog/chef-ridi-cutting-steak.jpg"
                     alt="Chef Ridi expertly preparing premium steak"
                     className="w-full h-80 object-cover rounded-xl shadow-lg"
                     width={400}
                     height={320}
+                    fallbackType="dish"
                   />
                   <div className="absolute -top-4 -left-4 bg-white p-4 rounded-lg shadow-lg border-2 border-red-800">
                     <div className="text-center">
@@ -225,12 +186,13 @@ export default function BlogSection({ dict }: BlogSectionProps) {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="glass-card rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:-translate-y-2">
-              <BlogImage
-                src={getImagePath("images/blog/seafood-antipasti-variety.jpg")}
+              <ReliableImage
+                src="/images/blog/seafood-antipasti-variety.jpg"
                 alt="Seafood antipasti variety"
                 className="w-full h-64 object-cover"
                 width={400}
                 height={256}
+                fallbackType="dish"
               />
               <div className="p-6">
                 <h4 className="text-xl font-bold font-playfair text-gray-900 mb-2">{dict.blog.culinary_artistry.antipasti.title}</h4>
@@ -241,12 +203,13 @@ export default function BlogSection({ dict }: BlogSectionProps) {
             </div>
 
             <div className="glass-card rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:-translate-y-2">
-              <BlogImage
-                src={getImagePath("images/blog/whole-fish-special-sauce.jpg")}
+              <ReliableImage
+                src="/images/blog/whole-fish-special-sauce.jpg"
                 alt="Whole fish with special golden sauce and lemon garnish"
                 className="w-full h-64 object-cover"
                 width={400}
                 height={256}
+                fallbackType="dish"
               />
               <div className="p-6">
                 <h4 className="text-xl font-bold font-playfair text-gray-900 mb-2">{dict.blog.culinary_artistry.fresh_fish.title}</h4>
@@ -257,12 +220,13 @@ export default function BlogSection({ dict }: BlogSectionProps) {
             </div>
 
             <div className="glass-card rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:-translate-y-2 md:col-span-2 lg:col-span-1">
-              <BlogImage
+              <ReliableImage
                 src="/images/blog/chef-ridi-cutting-steak.jpg"
                 alt="Chef expertise"
                 className="w-full h-64 object-cover"
                 width={400}
                 height={256}
+                fallbackType="dish"
               />
               <div className="p-6">
                 <h4 className="text-xl font-bold font-playfair text-gray-900 mb-2">{dict.blog.culinary_artistry.chef_expertise.title}</h4>
@@ -277,15 +241,17 @@ export default function BlogSection({ dict }: BlogSectionProps) {
         {/* Enhanced Highlights Section */}
         <div className="grid md:grid-cols-3 gap-8">
           <div className="glass-card rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:-translate-y-2">
-            <div className="h-48 relative overflow-hidden">
-              <BlogImage
-                src={getImagePath("images/blog/grilled-squid-professional.jpg")}
+            <div className="h-80 relative overflow-hidden bg-black">
+              <ReliableImage
+                src="/images/blog/grilled-squid-professional.jpg"
                 alt="Perfectly grilled squid with professional presentation and herbs"
-                className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
-                width={400}
-                height={192}
+                className="w-full h-full object-contain hover:scale-105 transition-transform duration-500"
+                width={600}
+                height={400}
+                fallbackType="dish"
+                priority={true}
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+              {/* Removed gradient overlay to show full image details */}
               <div className="absolute bottom-4 left-4">
                 <div className="text-4xl mb-2">🍝</div>
               </div>
@@ -299,15 +265,17 @@ export default function BlogSection({ dict }: BlogSectionProps) {
           </div>
 
           <div className="glass-card rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:-translate-y-2">
-            <div className="h-48 relative overflow-hidden">
-              <BlogImage
-                src={getImagePath("images/blog/fresh-prawns-wine-ambiance.jpg")}
+            <div className="h-80 relative overflow-hidden bg-black">
+              <ReliableImage
+                src="/images/blog/fresh-prawns-wine-ambiance.jpg"
                 alt="Fresh prawns with white wine in elegant restaurant setting"
-                className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
-                width={400}
-                height={192}
+                className="w-full h-full object-contain hover:scale-105 transition-transform duration-500"
+                width={600}
+                height={400}
+                fallbackType="dish"
+                priority={true}
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+              {/* Removed gradient overlay to show full image details */}
               <div className="absolute bottom-4 left-4">
                 <div className="text-4xl mb-2">🏆</div>
               </div>
@@ -321,15 +289,17 @@ export default function BlogSection({ dict }: BlogSectionProps) {
           </div>
 
           <div className="glass-card rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:-translate-y-2">
-            <div className="h-48 relative overflow-hidden">
-              <BlogImage
-                src={getImagePath("images/blog/chef-aurel-cutting-steak.jpg")}
+            <div className="h-80 relative overflow-hidden bg-black">
+              <ReliableImage
+                src="/images/blog/chef-aurel-cutting-steak.jpg"
                 alt="Chef Aurel expertly slicing premium steak in TRE FORCHETTE kitchen"
-                className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
-                width={400}
-                height={192}
+                className="w-full h-full object-contain hover:scale-105 transition-transform duration-500"
+                width={600}
+                height={400}
+                fallbackType="dish"
+                priority={true}
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+              {/* Removed gradient overlay to show full image details */}
               <div className="absolute bottom-4 left-4">
                 <div className="text-4xl mb-2">❤️</div>
               </div>

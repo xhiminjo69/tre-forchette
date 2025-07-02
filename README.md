@@ -2,6 +2,40 @@
 
 This is a Next.js project configured for GitHub Pages deployment.
 
+## Image Loading Mechanism
+
+This website uses a unified image loading approach with the `ReliableImage` component that provides:
+
+- Consistent image loading across all site sections
+- Multiple fallback mechanisms:
+  1. Local images (from `/public/images/` directory)
+  2. CDN fallback images (configured in `@/lib/image-data.ts`)
+  3. Base64 encoded placeholder images for logos and dishes
+- Optimized loading with Next.js Image component
+- Graceful error handling with appropriate UI fallbacks
+
+### Usage
+
+```jsx
+<ReliableImage
+  src="/images/path/to/image.jpg"
+  alt="Image description"
+  width={400}
+  height={300}
+  className="your-css-classes"
+  fallbackType="dish" // or "logo" depending on image type
+  priority={false} // set to true for above-the-fold images
+  unoptimized={false} // set to true to bypass Next.js image optimization
+/>
+```
+
+### Image Verification
+
+The project includes scripts to verify and copy images:
+
+- `scripts/verify-images.js`: Verifies that all required images exist in the public directory
+- `scripts/copy-images.js`: Copies images from public directory to build output
+
 ## Deployment to GitHub Pages
 
 This project is set up to be automatically deployed to GitHub Pages using GitHub Actions.
