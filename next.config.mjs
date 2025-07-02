@@ -1,6 +1,5 @@
 /** @type {import('next').NextConfig} */
-const isProduction = process.env.NODE_ENV === 'production';
-const basePath = isProduction ? '/tre-forchette' : '';
+const isProd = process.env.NODE_ENV === 'production';
 
 const nextConfig = {
   eslint: {
@@ -22,8 +21,8 @@ const nextConfig = {
   },
   output: 'export', // Enable static export
   trailingSlash: true, // Add trailing slashes for better compatibility
-  basePath, // Add base path for GitHub Pages
-  assetPrefix: basePath, // Set asset prefix for GitHub Pages
+  basePath: isProd ? '/tre-forchette' : '', // Add base path for GitHub Pages
+  assetPrefix: isProd ? '/tre-forchette' : '', // Set asset prefix for GitHub Pages
   experimental: {
     optimizePackageImports: ['lucide-react'],
   },
