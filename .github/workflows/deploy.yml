@@ -5,6 +5,11 @@ on:
     branches:
       - master
 
+# Cancel in-progress deployments
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
 permissions:
   contents: write
   pages: write
