@@ -24,14 +24,6 @@ const nextConfig = {
   experimental: {
     optimizePackageImports: ['lucide-react'],
   },
-  // Generate static pages for all language routes
-  generateStaticParams: async () => {
-    return [
-      { lang: 'en' },
-      { lang: 'it' },
-      { lang: 'al' }
-    ]
-  },
 }
 
 export default nextConfig
