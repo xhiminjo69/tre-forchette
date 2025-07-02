@@ -5,6 +5,7 @@ import { ChevronLeft, ChevronRight, X, Play, Pause } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import ReliableImage from "./reliable-image"
 import type { cdnImages } from "@/lib/image-data"
+import { getImagePath } from "@/lib/utils/image-path"
 
 interface GallerySectionProps {
   dict: any

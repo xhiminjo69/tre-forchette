@@ -34,7 +34,7 @@ export default function ReliableImage({
   const [cdnError, setCdnError] = useState(false)
   const [isLoading, setIsLoading] = useState(true)
 
-  // Process the image source to ensure it works correctly
+  // Always process the image source through getImagePath to ensure it works correctly on GitHub Pages
   const processedSrc = src.startsWith("http") ? src : getImagePath(src)
 
   // Handle successful image load

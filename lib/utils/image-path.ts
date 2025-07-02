@@ -21,9 +21,12 @@ export function getImagePath(path: string): string {
     return path;
   }
   
-  // Remove leading slash if present
+  // Remove leading slash if present to avoid double slashes
   const cleanPath = path.startsWith('/') ? path.slice(1) : path;
   
+  // Get the base URL
+  const baseUrl = getBaseUrl();
+  
   // Combine base URL with path
-  return `${getBaseUrl()}/${cleanPath}`;
+  return baseUrl ? `${baseUrl}/${cleanPath}` : `/${cleanPath}`;
 }
