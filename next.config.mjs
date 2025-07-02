@@ -18,16 +18,15 @@ const nextConfig = {
         pathname: '/**',
       },
     ],
-    // Ensure images work with GitHub Pages base path
-    path: isProd ? 'https://xhlek.github.io/tre-forchette/_next/image' : '/_next/image',
+    // Use default image path when using custom domain
+    path: '/_next/image',
   },
   output: 'export', // Enable static export
   trailingSlash: true, // Add trailing slashes for better compatibility
-  basePath: isProd ? '/tre-forchette' : '', // Add base path for GitHub Pages
-  assetPrefix: isProd ? '/tre-forchette' : '', // Set asset prefix for GitHub Pages
-  // Add a public runtime config to make the base path available to client-side code
+  // Custom domain doesn't need basePath or assetPrefix
+  // Add a public runtime config with empty basePath for custom domain
   publicRuntimeConfig: {
-    basePath: isProd ? '/tre-forchette' : '',
+    basePath: '',
   },
   experimental: {
     optimizePackageImports: ['lucide-react'],
