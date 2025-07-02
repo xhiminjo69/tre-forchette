@@ -24,7 +24,12 @@ const getBaseUrl = (): string => {
 
   // Manual detection as fallback
   if (isBrowser) {
-    if (window.location.hostname !== 'localhost') {
+    // With custom domain, we don't need a base path
+    if (window.location.hostname === 'tre-forchette-restaurant.com') {
+      return '';
+    }
+    // Only use the repo name as base path for GitHub's default domain
+    if (window.location.hostname.includes('github.io')) {
       return '/tre-forchette';
     }
   }
