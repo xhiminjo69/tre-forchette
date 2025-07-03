@@ -187,8 +187,8 @@ export default function BlogSection({ dict }: BlogSectionProps) {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="glass-card rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:-translate-y-2">
               <ReliableImage
-                src="/images/blog/seafood-antipasti-variety.jpg"
-                alt="Seafood antipasti variety"
+                src="/images/GALLERIA PLUS per 3forketet/Screenshot 2025-07-03 175202.jpg"
+                alt="Artfully prepared carpaccio with shaved parmesan and olive oil"
                 className="w-full h-64 object-cover"
                 width={400}
                 height={256}
@@ -243,8 +243,8 @@ export default function BlogSection({ dict }: BlogSectionProps) {
           <div className="glass-card rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:-translate-y-2">
             <div className="h-80 relative overflow-hidden bg-black">
               <ReliableImage
-                src="/images/blog/grilled-squid-professional.jpg"
-                alt="Perfectly grilled squid with professional presentation and herbs"
+                src="/images/GALLERIA PLUS per 3forketet/Screenshot 2025-07-03 175112.jpg"
+                alt="Premium quality meat selection for authentic Italian recipes"
                 className="w-full h-full object-contain hover:scale-105 transition-transform duration-500"
                 width={600}
                 height={400}
@@ -267,8 +267,8 @@ export default function BlogSection({ dict }: BlogSectionProps) {
           <div className="glass-card rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:-translate-y-2">
             <div className="h-80 relative overflow-hidden bg-black">
               <ReliableImage
-                src="/images/blog/fresh-prawns-wine-ambiance.jpg"
-                alt="Fresh prawns with white wine in elegant restaurant setting"
+                src="/images/GALLERIA PLUS per 3forketet/our-staff.jpg"
+                alt="TRE FORCHETTE staff providing warm Italian hospitality"
                 className="w-full h-full object-contain hover:scale-105 transition-transform duration-500"
                 width={600}
                 height={400}
@@ -277,7 +277,7 @@ export default function BlogSection({ dict }: BlogSectionProps) {
               />
               {/* Removed gradient overlay to show full image details */}
               <div className="absolute bottom-4 left-4">
-                <div className="text-4xl mb-2">🏆</div>
+                <div className="text-4xl mb-2">❤️</div>
               </div>
             </div>
             <div className="p-6 text-center">
@@ -291,8 +291,8 @@ export default function BlogSection({ dict }: BlogSectionProps) {
           <div className="glass-card rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:-translate-y-2">
             <div className="h-80 relative overflow-hidden bg-black">
               <ReliableImage
-                src="/images/blog/chef-aurel-cutting-steak.jpg"
-                alt="Chef Aurel expertly slicing premium steak in TRE FORCHETTE kitchen"
+                src="/images/GALLERIA PLUS per 3forketet/Screenshot 2025-07-03 175842.jpg"
+                alt="Elegant Italian dining experience with authentic presentation"
                 className="w-full h-full object-contain hover:scale-105 transition-transform duration-500"
                 width={600}
                 height={400}
@@ -301,7 +301,7 @@ export default function BlogSection({ dict }: BlogSectionProps) {
               />
               {/* Removed gradient overlay to show full image details */}
               <div className="absolute bottom-4 left-4">
-                <div className="text-4xl mb-2">❤️</div>
+                <div className="text-4xl mb-2">🍝</div>
               </div>
             </div>
             <div className="p-6 text-center">

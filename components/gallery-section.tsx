@@ -6,11 +6,13 @@ import { Button } from "@/components/ui/button"
 import ReliableImage from "./reliable-image"
 import type { cdnImages } from "@/lib/image-data"
 import { getImagePath } from "@/lib/utils/image-path"
+import { galleryPlusImages } from "@/lib/gallery-plus-images"
 
 interface GallerySectionProps {
   dict: any
 }
 
+// Combine original gallery images with the new ones
 const galleryImages = [
   {
     src: "/images/gallery/fish-carpaccio-olive-oil.jpg",
@@ -113,10 +115,12 @@ const galleryImages = [
   {
     src: "/images/gallery/seafood-antipasti-variety.jpg",
     alt: "Variety of seafood antipasti beautifully presented",
-    title: "Seafood Antipasti",
+    title: "Seafood Antipasti Variety",
     category: "Antipasti",
     cdnFallback: "seafoodAntipasti" as keyof typeof cdnImages,
   },
+  // Add all the new gallery images from GALLERIA PLUS per 3forketet folder
+  ...galleryPlusImages,
   {
     src: "/images/gallery/seafood-pasta.jpg",
     alt: "Rich seafood pasta with mussels, clams and prawns",
@@ -206,6 +210,7 @@ export default function GallerySection({ dict }: GallerySectionProps) {
               className={`w-full h-full transition-all duration-300 ease-in-out ${
                 isTransitioning ? "scale-105 opacity-90" : "scale-100 opacity-100"
               }`}
+              onClick={() => openLightbox(currentIndex)}
             >
               <ReliableImage
                 src={galleryImages[currentIndex].src}
@@ -276,7 +281,17 @@ export default function GallerySection({ dict }: GallerySectionProps) {
                     ? "ring-3 ring-red-800 scale-105 shadow-lg"
                     : "hover:scale-105 hover:shadow-md opacity-80 hover:opacity-100"
                 }`}
-                onClick={() => goToSlide(index)}
+                onClick={(e) => {
+                  // If holding Ctrl/Cmd key, open lightbox directly
+                  if (e.ctrlKey || e.metaKey) {
+                    openLightbox(index);
+                  } else {
+                    // Otherwise, change the main image first
+                    goToSlide(index);
+                    // Then open lightbox after a short delay to allow the main image to update
+                    setTimeout(() => openLightbox(index), 300);
+                  }
+                }}
               >
                 <ReliableImage
                   src={image.src}
