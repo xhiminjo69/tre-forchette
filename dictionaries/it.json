@@ -44,185 +44,210 @@
     "items": {
       "salad": [
         {
-          "name": "Insalata Verde",
-          "description": "Insalata mista, rucola, radicchio, pomodori secchi, olive, olio extravergine d'oliva, aceto, sale",
-          "price": "650 ALL"
+          "name": "INSALATA PRIMAVERA",
+          "description": "Pomodori, cetrioli, peperoni, capperi, olive, olio EVO, formaggio feta, sale",
+          "price": "800 ALL"
         },
         {
-          "name": "Spinaci Saltati",
-          "description": "Spinaci freschi, pinoli, aglio, burro, olio extravergine d'oliva, sale",
-          "price": "700 ALL"
-        },
-        {
-          "name": "Insalata Caprese",
-          "description": "Mozzarella Ciliegine, pomodorini, basilico fresco, olio extravergine d'oliva, origano, sale",
-          "price": "700 ALL"
-        },
-        {
-          "name": "Insalata Roquefort",
-          "description": "Insalata mista, formaggio Roquefort, noci, miele, olio extravergine d'oliva, aceto d'uva, sale",
+          "name": "INSALATA GREEN",
+          "description": "Insalata verde, rucola, radicchio, lolla rossa, pomodori secchi all'olio, olive, olio EVO, aceto di vino bianco, sale",
           "price": "750 ALL"
         },
         {
-          "name": "Insalata di Rucola con Pinoli",
-          "description": "Rucola, pomodorini, mela verde, pinoli, formaggio Parmigiano, aceto d'uva, olio extravergine d'oliva, sale",
-          "price": "850 ALL"
+          "name": "INSALATA CAPRESE",
+          "description": "Mozzarella Ciliegine, pomodorini, pesto di basilico, olio EVO, origano, sale",
+          "price": "800 ALL"
         },
         {
-          "name": "Insalata di Bresaola",
-          "description": "Rucola, bresaola, formaggio Parmigiano, crema balsamica, olio extravergine d'oliva, sale",
-          "price": "850 ALL"
+          "name": "INSALATA ROQUEFORT",
+          "description": "Insalata mista, formaggio Roquefort, noci, lampone, miele, olio EVO, aceto di vino bianco, sale",
+          "price": "900 ALL"
+        },
+        {
+          "name": "INSALATA DI RUCOLA",
+          "description": "Rucola, Parmiggiano Reggiano, pomodorini, crema di balsamico, olio EVO, sale",
+          "price": "750 ALL"
+        },
+        {
+          "name": "INSALATA DI SALMONE CON SEMI DI PINO",
+          "description": "Rucola, salmone, mela verde, semi di pino, Parmiggiano Reggiano, aceto di vino, olio EVO, sale, pomodori secchi all'olio",
+          "price": "900 ALL"
         }
       ],
       "appetizers": [
         {
-          "name": "Carpaccio di Triglia",
-          "description": "Marinato con olio extravergine d'oliva, limone, sale",
+          "name": "BRIZO",
+          "description": "Selezione di antipasti di mare, caldi e freddi scelti dallo chef",
+          "price": ""
+        },
+        {
+          "name": "BRIZO PER 2",
+          "description": "Selezione di antipasti di mare, caldi e freddi scelti dallo chef",
+          "price": "4000 ALL"
+        },
+        {
+          "name": "BRIZO PER 3",
+          "description": "Selezione di antipasti di mare, caldi e freddi scelti dallo chef",
+          "price": "6000 ALL"
+        },
+        {
+          "name": "BRIZO PER 4",
+          "description": "Selezione di antipasti di mare, caldi e freddi scelti dallo chef",
+          "price": "8000 ALL"
+        },
+        {
+          "name": "CARPACCIO DI POLPO",
+          "description": "Con olio EVO, limone, pomodori secchi all'olio, rucola, sale",
           "price": "1300 ALL"
         },
         {
-          "name": "Carpaccio di Orata",
-          "description": "Marinato con olio extravergine d'oliva, limone, pepe rosa in grani, sale",
+          "name": "CARPACCIO DI PESCE SPADA",
+          "description": "Con olio EVO, limone, erba di cipolla, sale",
           "price": "1300 ALL"
         },
         {
-          "name": "Carpaccio di Polpo",
-          "description": "Marinato con olio extravergine d'oliva, limone, pomodori secchi, rucola, sale",
+          "name": "SAUTÉ DI VONGOLE",
+          "description": "Con olio EVO, sale e aglio",
+          "price": "1700 ALL"
+        },
+        {
+          "name": "CARPACCIO DI PESCE RICCIOLA",
+          "description": "Con olio EVO, limone, pepe rosso, sale",
           "price": "1300 ALL"
         },
         {
-          "name": "Carpaccio di Pesce Spada",
-          "description": "Marinato con olio extravergine d'oliva, limone, cipolla bianca, sale",
+          "name": "GAMBERI MARINATI",
+          "description": "Olio EVO, limone, sale",
           "price": "1300 ALL"
         },
         {
-          "name": "Arancini",
-          "description": "Ripieni di riso e branzino; serviti con salsa aurora piccante",
-          "price": "600 ALL"
+          "name": "SALMONE CARAMELLATO",
+          "description": "Olio EVO, limone",
+          "price": "1300 ALL"
         },
         {
-          "name": "Piatto Misto per 2",
-          "description": "Selezione di antipasti caldi e freddi del nostro chef – tutti marinati alla perfezione",
-          "price": "3500 ALL"
+          "name": "ALICI MARINATI",
+          "description": "Olio EVO, aceto, sale",
+          "price": "800 ALL"
         },
         {
-          "name": "Piatto Misto per 3",
-          "description": "Selezione di antipasti caldi e freddi del nostro chef – tutti marinati alla perfezione",
-          "price": "5500 ALL"
+          "name": "ARANCINI",
+          "description": "Riso e pesce orata con salsa aurora piccante",
+          "price": "1000 ALL"
         },
         {
-          "name": "Piatto Misto per 4",
-          "description": "Selezione di antipasti caldi e freddi del nostro chef – tutti marinati alla perfezione",
-          "price": "7000 ALL"
+          "name": "GAMBERI FRITTI",
+          "description": "",
+          "price": "1400 ALL"
         },
         {
-          "name": "Carpaccio di Manzo",
-          "description": "Con rucola, pomodori secchi, formaggio Parmigiano, olio extravergine d'oliva, limone, pepe, sale",
-          "price": "1600 ALL"
+          "name": "CALAMARI FRITTI",
+          "description": "",
+          "price": "1400 ALL"
         },
         {
-          "name": "Vitello Tonnato",
-          "description": "Tagli selezionati di vitello; serviti con la nostra salsa tonnata fatta in casa",
-          "price": "1600 ALL"
+          "name": "CARPACCIO DI VITELLO",
+          "description": "Con rucola, pomodori secchi, Parmigiano Reggiano, olio EVO, limone, pepe, sale",
+          "price": "1700 ALL"
         },
         {
-          "name": "Fritto di Mare",
-          "description": "Selezione di frutti di mare freschi: seppie, calamari, gamberi",
-          "price": "1600 ALL"
+          "name": "VITEL TONNÉ",
+          "description": "Vitello con salsa tonnata fatta in casa e capperi",
+          "price": "1700 ALL"
+        },
+        {
+          "name": "FRITTURA DI MARE",
+          "description": "Alici, seppie, calamari, gamberi",
+          "price": "1900 ALL"
         }
       ],
       "first_course": [
         {
-          "name": "Zuppa di Pesce",
-          "description": "Preparata con branzino, salmone, patate, carote, olio extravergine d'oliva, sale",
-          "price": "450 ALL"
+          "name": "ZUPPA DI PESCE",
+          "description": "Orata, salmone, patate, carote, olio EVO, sale",
+          "price": "500 ALL"
         },
         {
-          "name": "Zuppa di Verdure",
-          "description": "Preparata con verdure miste, olio extravergine d'oliva, sale",
-          "price": "400 ALL"
+          "name": "ZUPPA DI VERDURE",
+          "description": "Verdure miste, olio EVO, sale",
+          "price": "500 ALL"
         },
         {
-          "name": "Tagliatelle Nere al Nero di Seppia",
-          "description": "Tagliatelle nere fresche al nero di seppia, molluschi e crostacei freschi di stagione, aglio, basilico fresco, olio extravergine d'oliva, sale",
-          "price": "800 ALL",
-          "signature": true
+          "name": "LINGUINE CON FRUTTI DI MARE",
+          "description": "Molluschi e crostacei, pomodoro, aglio, basilico, olio EVO, sale",
+          "price": "1100 ALL"
         },
         {
-          "name": "Linguine ai Frutti di Mare",
-          "description": "Linguine fresche, molluschi e crostacei freschi di stagione, salsa di pomodoro, aglio, basilico fresco, olio extravergine d'oliva, sale",
-          "price": "800 ALL"
-        },
-        {
-          "name": "Tagliatelle al Ragù",
-          "description": "Tagliatelle fresche, salsa di pomodoro, carne macinata di vitello, latte, cipolla, carote, sedano, alloro, basilico fresco, olio extravergine d'oliva, sale",
-          "price": "800 ALL"
-        },
-        {
-          "name": "Risotto ai Frutti di Mare",
-          "description": "Riso Carnaroli, molluschi e crostacei freschi di stagione, olio extravergine d'oliva, cipolla, sale",
-          "price": "800 ALL"
-        },
-        {
-          "name": "Pappardelle alla Norcina",
-          "description": "Pappardelle fresche, salsiccia fresca di maiale, funghi freschi, formaggio Parmigiano, burro, olio extravergine d'oliva, sale",
-          "price": "900 ALL",
-          "signature": true
-        },
-        {
-          "name": "Orecchiette con Aragosta e Zucchine",
-          "description": "Orecchiette fresche, aragosta di profondità, zucchine, pomodorini, basilico fresco, olio extravergine d'oliva, sale",
+          "name": "TAGLIATELLE AL RAGÙ",
+          "description": "Carne macinata di vitello, pomodoro, cipolla, latte, alloro, sedano, carote, basilico, olio EVO, sale",
           "price": "900 ALL"
+        },
+        {
+          "name": "RISOTTO CON FRUTTI DI MARE",
+          "description": "Riso Carnaroli, molluschi e crostacei, olio EVO, sale",
+          "price": "1300 ALL"
+        },
+        {
+          "name": "ORECCHIETTE CON GAMBERI E ZUCCHINE",
+          "description": "Gamberi, zucchini, pomodorini, basilico, olio EVO, aglio, sale",
+          "price": "1100 ALL"
+        },
+        {
+          "name": "TAGLIATELLE ALLE VONGOLE",
+          "description": "Vongole, aglio, olio EVO, sale",
+          "price": "1300 ALL"
         }
       ],
       "second_course": [
         {
-          "name": "Salmone su Letto di Zucchine",
-          "description": "Salmone al forno - servito con salsa di zucchine - basilico fresco, olio extravergine d'oliva, pepe rosa in grani, sale",
+          "name": "TAGLIATA DI VITELLO",
+          "description": "Con insalata di radicchio, Parmigiano, crema balsamica, olio EVO, fiocchi di sale",
+          "price": "1800 ALL"
+        },
+        {
+          "name": "SALMONE SUL LETTO DI ZUCCHINE",
+          "description": "Con salsa di zucchine, basilico, olio EVO, pepe rosso, sale",
           "price": "1500 ALL",
           "signature": true
         },
         {
-          "name": "Tagliata di Filetto di Vitello",
-          "description": "Filetto di vitello tagliato - servito con insalata di rucola, formaggio Parmigiano, crema balsamica, olio extravergine d'oliva, scaglie di sale marino",
+          "name": "POLPO MEDITERRANEO",
+          "description": "Fritto, con salsa di pomodoro, cipolline, aglio, basilico, olio EVO, sale",
           "price": "1800 ALL"
         },
         {
-          "name": "Polpo alla Mediterranea",
-          "description": "Polpo fritto, salsa di pomodoro, cipolline, aglio, basilico fresco, olio extravergine d'oliva, sale",
-          "price": "1700 ALL"
+          "name": "FILETTO DI POLLO ALLA GRIGLIA",
+          "description": "Con salsa barbecue e insalata mista",
+          "price": "1300 ALL"
         },
         {
-          "name": "Bistecca alla Fiorentina",
-          "description": "Costata di vitello tagliata e grigliata alla perfezione - servita con salsa sweet chili e salsa barbecue",
-          "price": "550 ALL/100g",
+          "name": "FILETTO DI PESCE CON CREMA DI PEPERONI",
+          "description": "Orata grigliata, crema di peperoni, pomodori, aglio, basilico, olio EVO, sale",
+          "price": "1500 ALL"
+        },
+        {
+          "name": "PESCE FRESCO DEL GIORNO",
+          "description": "Chiedere al personale",
+          "price": "Prezzo di Mercato"
+        },
+        {
+          "name": "BISTECCA ALLA FIORENTINA",
+          "description": "Con salsa sweet chili e barbecue",
+          "price": "650 ALL/100g",
           "signature": true
         },
         {
-          "name": "Tagliata Black Angus Picanha",
-          "description": "Filetto Black Angus Picanha tagliato - servito con insalata di radicchio, formaggio Parmigiano, crema balsamica, olio extravergine d'oliva, scaglie di sale marino",
-          "price": "600 ALL/100g"
-        },
-        {
-          "name": "Filetto di Pollo alla Griglia",
-          "description": "Filetto di pollo, olio extravergine d'oliva, sale - servito con insalata mista e salsa barbecue",
-          "price": "900 ALL"
-        },
-        {
-          "name": "Filetto di Pesce con Salsa ai Peperoni",
-          "description": "Branzino fresco grigliato; salsa con peperoni rossi, pomodori, panna da cucina, aglio, basilico, olio extravergine d'oliva, sale",
-          "price": "1400 ALL"
-        },
-        {
-          "name": "Pesce Fresco del Giorno",
-          "description": "*Chiedete al nostro staff per i dettagli*",
-          "price": "Prezzo di Mercato"
+          "name": "PESCE BRANZINO AL FORNO",
+          "description": "Con salsa di vino e limone / salsa di pomodorini e olive",
+          "price": "550 ALL/100g"
         }
       ],
       "side_dishes": [
-        {"name": "Spinaci in Padella", "description": "", "price": "700 ALL"},
-        {"name": "Crochette di Patate", "description": "", "price": "700 ALL"},
-        {"name": "Insalata di Radicchio", "description": "", "price": "700 ALL"}
+        {"name": "SPINACI IN PADELLA", "description": "Con aglio e olio EVO", "price": "700 ALL"},
+        {"name": "CROCCHETTE DI PATATE", "description": "Patate, uova, formaggio, prezzemolo", "price": "700 ALL"},
+        {"name": "INSALATA DI RADICCHIO", "description": "Radicchio, olio EVO, sale", "price": "700 ALL"},
+        {"name": "PATATE AL FORNO", "description": "Con rosmarino e aglio", "price": "700 ALL"},
+        {"name": "VERDURE GRIGLIATE", "description": "Melanzane, zucchine, peperoni", "price": "700 ALL"}
       ]
     }
   },

@@ -44,185 +44,203 @@
     "items": {
       "salad": [
         {
+          "name": "Sallatë Primavera",
+          "description": "Domate, kastravec, speca, caperi, ullinj, vaj ulliri ekstra i virgjër, djathë i bardhë, kripë",
+          "price": "800 ALL"
+        },
+        {
           "name": "Sallatë Green",
-          "description": "Sallatë jeshile, rukola, radikio, domate të thara nën vaj, ulliri, vaj ulliri ekstra i virgjër, uthull, kripë",
-          "price": "650 ALL"
-        },
-        {
-          "name": "Spinaq në Tigan",
-          "description": "Spinaq i freskët, arrë moskat, hudhra, gjalpë, vaj ulliri ekstra i virgjër, kripë",
-          "price": "700 ALL"
-        },
-        {
-          "name": "Sallatë Caprese",
-          "description": "Mozzarella Ciliegine, pomodorini, brozilok i freskët, vaj ulliri ekstra i virgjër, rigon, kripë",
-          "price": "700 ALL"
-        },
-        {
-          "name": "Sallatë Roquefort",
-          "description": "Sallatë mikse, djathë Roquefort, arra, mjedal, mjaltë, vaj ulliri ekstra i virgjër, uthull rrushi, kripë",
+          "description": "Sallatë jeshile, rukola, radikio, lolla rossa, domate të thara nën vaj, ullinj, vaj ulliri ekstra i virgjër, uthull rrushi, kripë",
           "price": "750 ALL"
         },
         {
-          "name": "Sallatë Trofte me Fara Pishe",
-          "description": "Rukola, trofte, mollë jeshile, fara pishe, djathë parmigiano, uthull rrushi, vaj ulliri ekstra i virgjër, kripë",
-          "price": "850 ALL"
+          "name": "Sallatë Caprese",
+          "description": "Mozzarella Ciliegine, pomodorini, pesto borziloku, vaj ulliri ekstra i virgjër, rigon, kripë",
+          "price": "800 ALL"
         },
         {
-          "name": "Sallatë Bresaola",
-          "description": "Rukola, bresaola, djathë parmigiano, krem balsami, vaj ulliri ekstra i virgjër, kripë",
-          "price": "850 ALL"
+          "name": "Sallatë Roquefort",
+          "description": "Sallatë mikse, djathë Roquefort, arra, mjedër, mjaltë, vaj ulliri ekstra i virgjër, uthull rrushi, kripë",
+          "price": "900 ALL"
+        },
+        {
+          "name": "Sallatë Rukola",
+          "description": "Rukola, djathë parmigiano, pomodorini, krem balsami, vaj ulliri ekstra i virgjër, kripë",
+          "price": "750 ALL"
+        },
+        {
+          "name": "Sallatë Salmoni me Fara Pishe",
+          "description": "Rukola, salmon, mollë jeshile, fara pishe, domate të thara, djathë parmigiano, uthull rrushi, vaj ulliri ekstra i virgjër, kripë",
+          "price": "900 ALL"
         }
       ],
       "appetizers": [
         {
-          "name": "Carpaccio Peshku Rufio",
-          "description": "marinuar me vaj ulliri ekstra të virgjër, limon, kripë",
-          "price": "1300 ALL"
+          "name": "Brizo për 2 persona",
+          "description": "Përzgjedhje antipastash miks të ngrohta dhe të ftohta nga shefi i kuzhinës – të gjitha të marinuara në përsosmeri",
+          "price": "4000 ALL"
         },
         {
-          "name": "Carpaccio Peshku Gofë",
-          "description": "marinuar me vaj ulliri ekstra të virgjër, limon, piper të kuq kokërr, kripë",
-          "price": "1300 ALL"
+          "name": "Brizo për 3 persona",
+          "description": "Përzgjedhje antipastash miks të ngrohta dhe të ftohta nga shefi i kuzhinës – të gjitha të marinuara në përsosmeri",
+          "price": "6000 ALL"
+        },
+        {
+          "name": "Brizo për 4 persona",
+          "description": "Përzgjedhje antipastash miks të ngrohta dhe të ftohta nga shefi i kuzhinës – të gjitha të marinuara në përsosmeri",
+          "price": "8000 ALL"
         },
         {
           "name": "Carpaccio Oktapodi",
-          "description": "marinuar me vaj ulliri ekstra të virgjër, limon, domate të thara nën vaj, rukola, kripë",
+          "description": "Vaj ulliri ekstra i virgjër, lëng limoni, domate të thara nën vaj, rukola, kripë",
           "price": "1300 ALL"
         },
         {
           "name": "Carpaccio Peshku Shpatë",
-          "description": "marinuar me vaj ulliri ekstra të virgjër, limon, bar qepë, kripë",
+          "description": "Vaj ulliri ekstra i virgjër, lëng limoni, qepë e freskët, kripë",
           "price": "1300 ALL"
         },
         {
+          "name": "Vongole Saute",
+          "description": "Hudhra, vaj ulliri ekstra i virgjër, kripë",
+          "price": "1700 ALL"
+        },
+        {
+          "name": "Carpaccio Peshku Gofë",
+          "description": "Vaj ulliri ekstra i virgjër, lëng limoni, piper i kuq, kripë",
+          "price": "1300 ALL"
+        },
+        {
+          "name": "Karkalec Ovat",
+          "description": "Vaj ulliri ekstra i virgjër, lëng limoni, kripë",
+          "price": "1300 ALL"
+        },
+        {
+          "name": "Salmon i Karamelizuar",
+          "description": "Vaj ulliri ekstra i virgjër, lëng limoni",
+          "price": "1300 ALL"
+        },
+        {
+          "name": "Açuge",
+          "description": "Vaj ulliri ekstra i virgjër, uthull, kripë",
+          "price": "800 ALL"
+        },
+        {
           "name": "Arancini",
-          "description": "të mbushura me oriz dhe peshk koce; shoqëruar me salcë aurora pikante",
-          "price": "600 ALL"
+          "description": "Me peshk koce & salcë aurora pikante",
+          "price": "1000 ALL"
         },
         {
-          "name": "Brizo për 2",
-          "description": "Përzgjedhje antipastash miks të ngrohta dhe të ftohta nga shefi i kuzhinës – të gjitha të marinuara në përsosmëri",
-          "price": "3500 ALL"
+          "name": "Friturë Karkaleci",
+          "description": "Karkalec i freskët, i gatuar në mënyrë të përsosur",
+          "price": "1400 ALL"
         },
         {
-          "name": "Brizo për 3",
-          "description": "Përzgjedhje antipastash miks të ngrohta dhe të ftohta nga shefi i kuzhinës – të gjitha të marinuara në përsosmëri",
-          "price": "5500 ALL"
-        },
-        {
-          "name": "Brizo për 4",
-          "description": "Përzgjedhje antipastash miks të ngrohta dhe të ftohta nga shefi i kuzhinës – të gjitha të marinuara në përsosmëri",
-          "price": "7000 ALL"
+          "name": "Friturë Kallamari",
+          "description": "Kallamar i freskët, i gatuar në mënyrë të përsosur",
+          "price": "1400 ALL"
         },
         {
           "name": "Carpaccio Vici",
-          "description": "me rukola, domate të thara nën vaj, djathë parmigiano, vaj ulliri ekstra i virgjër, limon, piper, kripë",
-          "price": "1600 ALL"
+          "description": "Rukola, domate të thara nën vaj, djathë parmigiano, vaj ulliri ekstra i virgjër, limon, piper i zi, kripë",
+          "price": "1700 ALL"
         },
         {
-          "name": "Vitel Tone'",
-          "description": "pjesë e përzgjedhur e vicit; shoqëruar me salcë tono të përgatittur nga ne",
-          "price": "1600 ALL"
+          "name": "Vitel Toné",
+          "description": "Mish viçi i veshur me salcë toni të bërë në shtëpi dhe kaperi",
+          "price": "1700 ALL"
         },
         {
           "name": "Friturë Deti",
-          "description": "Përzgjedhje fruta deti të freskëta: sepie, kallamar, karkalec",
-          "price": "1600 ALL"
+          "description": "Përzgjedhje fruta deti të freskëta: açuge, sepie, kallamar, karkalec",
+          "price": "1900 ALL"
         }
       ],
       "first_course": [
         {
           "name": "Supë Peshku",
-          "description": "E përgatitür me peshk koce, peshk salmon, patate, karrotë, vaj ulliri ekstra i virgjër, kripë",
-          "price": "450 ALL"
+          "description": "Peshk koce, salmon, patate, karrotë, vaj ulliri ekstra i virgjër, kripë",
+          "price": "500 ALL"
         },
         {
-          "name": "Supë Perime",
-          "description": "E përgatitür me miks perimesh, vaj ulliri ekstra i virgjër, kripë",
-          "price": "400 ALL"
-        },
-        {
-          "name": "Tagliatelle me Nero di Seppia",
-          "description": "Tagliatelle të zeza të përgatitüra nga ne me bojën e sepies, molusqe dhe krostacel të freskët sipas stinës, hudhra, borzilok i freskët, vaj ulliri ekstra i virgjër, kripë",
-          "price": "800 ALL",
-          "signature": true
+          "name": "Supë me Perime",
+          "description": "Miks perimesh, vaj ulliri ekstra i virgjër, kripë",
+          "price": "500 ALL"
         },
         {
           "name": "Linguine me Fruta Deti",
           "description": "Linguine të përgatitüra nga ne, molusqe dhe krostacel të freskët sipas stinës, salcë domate, hudhra, borzilok i freskët, vaj ulliri ekstra i virgjër, kripë",
-          "price": "800 ALL"
+          "price": "1100 ALL"
         },
         {
           "name": "Tagliatelle me Ragu",
           "description": "Tagliatelle të përgatitüra nga ne, salcë domate, mish i grirë vici, qumësht, qepë, karrotë, selino, dafinë, borzilok i freskët, vaj ulliri ekstra i virgjër, kripë",
-          "price": "800 ALL"
+          "price": "900 ALL"
         },
         {
           "name": "Risoto me Fruta Deti",
           "description": "Oriz Carnaroli, molusqe dhe krostacel të freskët sipas stinës, vaj ulliri ekstra i virgjër, qepë, kripë",
-          "price": "800 ALL"
+          "price": "1300 ALL"
         },
         {
-          "name": "Pappardelle alla Norcina",
-          "description": "Pappardelle të përgatitüra nga ne, salçiçe e freskët derri, kërpudha të freskëta, djathë parmigiano, gjalpë, vaj ulliri ekstra i virgjër, kripë",
-          "price": "900 ALL",
-          "signature": true
+          "name": "Orecchiette me Karkalec & Kungull",
+          "description": "Orecchiette e freskët, karkalec thellësie, kungull, pomodorini, borzilok i freskët, vaj ulliri ekstra i virgjër, kripë",
+          "price": "1100 ALL"
         },
         {
-          "name": "Orecchiette me Karkalec dhe Kungull",
-          "description": "Orecchiette e freskët, karkalec thellësie, kungull, pomodorini, brozilok i freskët, vaj ulliri ekstra i virgjër, kripë",
-          "price": "900 ALL"
+          "name": "Tagliatelle me Vongole",
+          "description": "Tagliatelle të përgatitüra nga ne, vongole të freskëta, hudhra, vaj ulliri ekstra i virgjër, borzilok i freskët, kripë",
+          "price": "1300 ALL"
         }
       ],
       "second_course": [
         {
+          "name": "Tagliata Fileto Viçi",
+          "description": "Fileto vici e trajtuär dhe e pjekur në përsosmeri - shërbyera me sallatë rukola, djathë parmigiano, krem balsami, vaj ulliri ekstra i virgjër, kripë deti flakes",
+          "price": "1800 ALL"
+        },
+        {
           "name": "Salmon në Shtrat Kungulli",
-          "description": "Salmon e furrë - shërbyer me salcë kungulli - borzilok i freskët, vaj ulliri ekstra i virgjër, piper i kuq kokërr, kripë",
+          "description": "Salmon e furrë - shërbyera me salcë kungulli - borzilok i freskët, vaj ulliri ekstra i virgjër, piper i kuq kokërr, kripë",
           "price": "1500 ALL",
           "signature": true
         },
         {
-          "name": "Tagliata Fileto Vici",
-          "description": "Fileto vici e trajtuär - shërbyer me sallatë rukola, djathë parmigiano, krem balsami, vaj ulliri ekstra i virgjër, kripë deti flakes",
+          "name": "Oktapod Mediterran",
+          "description": "Oktapod friturë, salcë domate, qepë të vogla, hudhra, borzilok i freskët, vaj ulliri ekstra i virgjër, kripë",
           "price": "1800 ALL"
         },
         {
-          "name": "Oktapod Mediterran",
-          "description": "Oktapod friturë, salcë domate, qepë të vogla, hudhra, borzilok i freskët, vaj ulliri ekstra i virgjër, kripë",
-          "price": "1700 ALL"
-        },
-        {
-          "name": "Bistecca alla Fiorentina",
-          "description": "Bërrolla vici e trajtuär dhe e pjekur në përsosmëri - shërbyer me salcë sweet chilli dhe salcë barbecue",
-          "price": "550 ALL/100 g",
-          "signature": true
-        },
-        {
-          "name": "Tagliata Black Angus Picanha",
-          "description": "Fileto Black Angus Picanha e trajtuär - shërbyer me sallatë radikio, djathë parmigiano, krem balsami, vaj ulliri ekstra i virgjër, kripë deti flakes",
-          "price": "600 ALL/100 g"
-        },
-        {
           "name": "Fileto Pule në Zgarë",
-          "description": "Fileto pule, vaj ulliri ekstra i virgjër, kripë - shërbyer me sallatë miks dhe salcë barbecue",
-          "price": "900 ALL"
+          "description": "Fileto pule, vaj ulliri ekstra i virgjër, kripë - shërbyera me sallatë mikse dhe salcë barbecue",
+          "price": "1300 ALL"
         },
         {
           "name": "Fileto Peshku me Salcë Specash",
           "description": "Peshk i freskët koce në zgarë; salcë me speca të kuqe, domate, pana kuzhinë, hudhra, borzilok, vaj ulliri ekstra i virgjër, kripë",
-          "price": "1400 ALL"
+          "price": "1500 ALL"
+        },
+        {
+          "name": "Bistecca alla Fiorentina",
+          "description": "Bërrolla vici e trajtuär dhe e pjekur në përsosmeri - shërbyera me salcë sweet chilli dhe salcë barbecue",
+          "price": "650 ALL/100 g",
+          "signature": true
+        },
+        {
+          "name": "Peshk Lavrak në Furrë",
+          "description": "Peshk i freskët lavrak në furrë, vaj ulliri ekstra i virgjër, lëng limoni, kripë",
+          "price": "550 ALL/100 g"
         },
         {
           "name": "Peshk i Freskët i Ditës",
-          "description": "*Pyjet personalin për detaje*",
+          "description": "*Pyetni personelin për detaje*",
           "price": "Çmimi i Tregut"
         }
       ],
       "side_dishes": [
-        {"name": "Spinaq i Tiganisur", "description": "", "price": "700 ALL"},
-        {"name": "Kroketa Patate", "description": "", "price": "700 ALL"},
-        {"name": "Sallatë Radikio", "description": "", "price": "700 ALL"}
+        {"name": "Spinaq i Tiganisur", "description": "Spinaq i freskët, hudhra, vaj ulliri ekstra i virgjër, kripë", "price": "700 ALL"},
+        {"name": "Kroketa Patate me salcë sweet chili", "description": "Patate të freskta, djathë, erza, kripë, salcë sweet chili", "price": "700 ALL"},
+        {"name": "Sallatë Radikio", "description": "Radikio i freskët, vaj ulliri ekstra i virgjër, uthull rrushi, kripë", "price": "700 ALL"}
       ]
     }
   },

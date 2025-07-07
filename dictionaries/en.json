@@ -76,146 +76,162 @@
       ],
       "appetizers": [
         {
-          "name": "Red Mullet Carpaccio",
-          "description": "Marinated with extra virgin olive oil, lemon, salt",
-          "price": "1300 ALL"
+          "name": "Brizo for 2",
+          "description": "Selection of various sea appetizers, hot and cold from the chef – all marinated in perfection",
+          "price": "4000 ALL"
         },
         {
-          "name": "Sea Bream Carpaccio",
-          "description": "Marinated with extra virgin olive oil, lemon, pink peppercorns, salt",
-          "price": "1300 ALL"
+          "name": "Brizo for 3",
+          "description": "Selection of various sea appetizers, hot and cold from the chef – all marinated in perfection",
+          "price": "6000 ALL"
+        },
+        {
+          "name": "Brizo for 4",
+          "description": "Selection of various sea appetizers, hot and cold from the chef – all marinated in perfection",
+          "price": "8000 ALL"
         },
         {
           "name": "Octopus Carpaccio",
-          "description": "Marinated with extra virgin olive oil, lemon, sun-dried tomatoes, arugula, salt",
+          "description": "Extra virgin olive oil, lemon juice, dried tomatoes in olive oil, arugula, salt",
           "price": "1300 ALL"
         },
         {
-          "name": "Swordfish Carpaccio",
-          "description": "Marinated with extra virgin olive oil, lemon, white onion, salt",
+          "name": "Spear Fish Carpaccio",
+          "description": "Extra virgin olive oil, lemon juice, fresh chives, salt",
           "price": "1300 ALL"
+        },
+        {
+          "name": "Sauteed Clams",
+          "description": "Garlic, extra virgin olive oil, salt",
+          "price": "1700 ALL"
+        },
+        {
+          "name": "Gopher Fish Carpaccio",
+          "description": "Extra virgin olive oil, lemon juice, red pepper flakes, salt",
+          "price": "1300 ALL"
+        },
+        {
+          "name": "Ovat Shrimp",
+          "description": "Extra virgin olive oil, lemon juice, salt",
+          "price": "1300 ALL"
+        },
+        {
+          "name": "Caramelized Salmon",
+          "description": "Extra virgin olive oil, lemon juice",
+          "price": "1300 ALL"
+        },
+        {
+          "name": "Anchovies",
+          "description": "Extra virgin olive oil, vinegar, salt",
+          "price": "800 ALL"
         },
         {
           "name": "Arancini",
-          "description": "Stuffed with rice and sea bass; served with spicy aurora sauce",
-          "price": "600 ALL"
+          "description": "Filled with rice and sea bream fish; served with spicy aurora sauce",
+          "price": "1000 ALL"
         },
         {
-          "name": "Mixed Platter for 2",
-          "description": "Selection of hot and cold antipasti from our chef – all marinated to perfection",
-          "price": "3500 ALL"
+          "name": "Fried Shrimp",
+          "description": "Fresh shrimp, lightly battered and fried to perfection",
+          "price": "1400 ALL"
         },
         {
-          "name": "Mixed Platter for 3",
-          "description": "Selection of hot and cold antipasti from our chef – all marinated to perfection",
-          "price": "5500 ALL"
+          "name": "Fried Squid",
+          "description": "Fresh squid, lightly battered and fried to perfection",
+          "price": "1400 ALL"
         },
         {
-          "name": "Mixed Platter for 4",
-          "description": "Selection of hot and cold antipasti from our chef – all marinated to perfection",
-          "price": "7000 ALL"
+          "name": "Veal Carpaccio",
+          "description": "Arugula, dried tomatoes in olive oil, parmesan cheese, extra virgin olive oil, lemon, black pepper, salt",
+          "price": "1700 ALL"
         },
         {
-          "name": "Beef Carpaccio",
-          "description": "With arugula, sun-dried tomatoes, Parmigiano cheese, extra virgin olive oil, lemon, pepper, salt",
-          "price": "1600 ALL"
-        },
-        {
-          "name": "Vitello Tonnato",
-          "description": "Selected veal cuts; served with our homemade tuna sauce",
-          "price": "1600 ALL"
+          "name": "Vitel Tone'",
+          "description": "Veal meat dressed in homemade tuna sauce and caper bush",
+          "price": "1700 ALL"
         },
         {
           "name": "Fried Seafood",
-          "description": "Selection of fresh seafood: cuttlefish, squid, shrimp",
-          "price": "1600 ALL"
+          "description": "Selection of fresh seafood: anchovies, cuttlefish, squid, shrimp",
+          "price": "1900 ALL"
         }
       ],
       "first_course": [
         {
           "name": "Fish Soup",
-          "description": "Prepared with sea bass, salmon, potatoes, carrots, extra virgin olive oil, salt",
-          "price": "450 ALL"
+          "description": "Sea bream fish, salmon, potatoes, carrots, extra virgin olive oil, salt",
+          "price": "500 ALL"
         },
         {
           "name": "Vegetable Soup",
-          "description": "Prepared with mixed vegetables, extra virgin olive oil, salt",
-          "price": "400 ALL"
+          "description": "Various vegetables, extra virgin olive oil, salt",
+          "price": "500 ALL"
         },
         {
-          "name": "Black Tagliatelle with Squid Ink",
-          "description": "Fresh black tagliatelle made with squid ink, fresh mollusks and crustaceans, garlic, fresh basil, extra virgin olive oil, salt",
-          "price": "800 ALL",
-          "signature": true
+          "name": "Seafood Linguine",
+          "description": "Fresh linguine, clams and crustaceans, tomato sauce, garlic, fresh basil, extra virgin olive oil, salt",
+          "price": "1100 ALL"
         },
         {
-          "name": "Linguine with Seafood",
-          "description": "Fresh linguine, seasonal mollusks and crustaceans, tomato sauce, garlic, fresh basil, extra virgin olive oil, salt",
-          "price": "800 ALL"
-        },
-        {
-          "name": "Tagliatelle with Ragu",
-          "description": "Fresh tagliatelle, tomato sauce, ground veal, milk, onion, carrots, celery, bay leaves, fresh basil, extra virgin olive oil, salt",
-          "price": "800 ALL"
-        },
-        {
-          "name": "Seafood Risotto",
-          "description": "Carnaroli rice, fresh seasonal mollusks and crustaceans, extra virgin olive oil, onion, salt",
-          "price": "800 ALL"
-        },
-        {
-          "name": "Pappardelle alla Norcina",
-          "description": "Fresh pappardelle, fresh pork sausage, fresh mushrooms, Parmigiano cheese, butter, extra virgin olive oil, salt",
-          "price": "900 ALL",
-          "signature": true
-        },
-        {
-          "name": "Orecchiette with Lobster and Zucchini",
-          "description": "Fresh orecchiette, deep-sea lobster, zucchini, cherry tomatoes, fresh basil, extra virgin olive oil, salt",
+          "name": "Tagliatelle al Ragu",
+          "description": "Tagliatelle, tomato sauce, minced veal meat, milk, onion, carrots, celery, bay leaves, fresh basil, extra virgin olive oil, salt",
           "price": "900 ALL"
+        },
+        {
+          "name": "Seafood Risoto",
+          "description": "Carnaroli rice, clams and crustaceans, extra virgin olive oil, salt",
+          "price": "1300 ALL"
+        },
+        {
+          "name": "Orecchiette with Shrimps and Zucchini",
+          "description": "Orecchiette, deep sea shrimp, zucchini, cherry tomatoes, garlic, fresh basil, extra virgin olive oil, salt",
+          "price": "1100 ALL"
+        },
+        {
+          "name": "Tagliatelle alle Vongole",
+          "description": "Tagliatelle, clams, garlic, extra virgin olive oil, salt",
+          "price": "1300 ALL"
         }
       ],
       "second_course": [
         {
-          "name": "Salmon on Zucchini Bed",
-          "description": "Baked salmon - served with zucchini sauce - fresh basil, extra virgin olive oil, pink peppercorns, salt",
-          "price": "1500 ALL",
-          "signature": true
-        },
-        {
-          "name": "Sliced Veal Fillet",
-          "description": "Sliced veal fillet - served with arugula salad, Parmigiano cheese, balsamic cream, extra virgin olive oil, sea salt flakes",
+          "name": "Beef Fillet Tagliata",
+          "description": "Beef fillet, chicory salad, parmesan cheese, balsamic cream, extra virgin olive oil, sea salt flakes",
           "price": "1800 ALL"
         },
         {
+          "name": "Salmon in Zucchini Bed",
+          "description": "Oven-baked salmon with zucchini sauce, fresh basil, extra virgin olive oil, red pepper, salt",
+          "price": "1500 ALL"
+        },
+        {
           "name": "Mediterranean Octopus",
-          "description": "Fried octopus, tomato sauce, small onions, garlic, fresh basil, extra virgin olive oil, salt",
-          "price": "1700 ALL"
+          "description": "Fried octopus, tomato sauce, baby onions, garlic, fresh basil, extra virgin olive oil, salt",
+          "price": "1800 ALL"
         },
         {
           "name": "Bistecca alla Fiorentina",
-          "description": "Sliced and perfectly grilled veal T-bone - served with sweet chili sauce and barbecue sauce",
-          "price": "550 ALL/100g",
-          "signature": true
-        },
-        {
-          "name": "Black Angus Picanha Tagliata",
-          "description": "Sliced Black Angus Picanha fillet - served with radicchio salad, Parmigiano cheese, balsamic cream, extra virgin olive oil, sea salt flakes",
-          "price": "600 ALL/100g"
+          "description": "Porterhouse beef steak, sweet chili sauce, barbecue sauce",
+          "price": "650 ALL/100g"
         },
         {
           "name": "Grilled Chicken Fillet",
-          "description": "Chicken fillet, extra virgin olive oil, salt - served with mixed salad and barbecue sauce",
-          "price": "900 ALL"
+          "description": "Chicken fillet, extra virgin olive oil, salt; barbecue sauce and mix salad",
+          "price": "1300 ALL"
         },
         {
-          "name": "Fish Fillet with Pepper Sauce",
-          "description": "Fresh grilled sea bass; sauce with red peppers, tomatoes, cooking cream, garlic, basil, extra virgin olive oil, salt",
-          "price": "1400 ALL"
+          "name": "Fish Fillet with Bell Peppers Sauce",
+          "description": "Sea bream fish, red bell pepper sauce, tomatoes, garlic, fresh basil, extra virgin olive oil, salt",
+          "price": "1500 ALL"
+        },
+        {
+          "name": "Sea Bass Fish in Oven",
+          "description": "With wine and lemon sauce / cherry tomatoes and olives sauce",
+          "price": "550 ALL/100g"
         },
         {
           "name": "Fresh Fish of the Day",
-          "description": "*Ask our staff for details*",
+          "description": "Ask the personnel for more information",
           "price": "Market Price"
         }
       ],
