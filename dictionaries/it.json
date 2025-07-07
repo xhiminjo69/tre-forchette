@@ -35,13 +35,14 @@
     "subtitle": "Creato con Passione, Servito con Orgoglio",
     "signature": "Specialità dello Chef",
     "categories": {
-      "sallata": "Insalate",
-      "antipasta": "Antipasti",
-      "primi": "Primi Piatti",
-      "secondi": "Secondi Piatti"
+      "salad": "Insalate",
+      "appetizers": "Antipasti",
+      "first_course": "Primi Piatti",
+      "second_course": "Secondi Piatti",
+      "side_dishes": "Contorni"
     },
     "items": {
-      "sallata": [
+      "salad": [
         {
           "name": "Insalata Verde",
           "description": "Insalata mista, rucola, radicchio, pomodori secchi, olive, olio extravergine d'oliva, aceto, sale",
@@ -73,7 +74,7 @@
           "price": "850 ALL"
         }
       ],
-      "antipasta": [
+      "appetizers": [
         {
           "name": "Carpaccio di Triglia",
           "description": "Marinato con olio extravergine d'oliva, limone, sale",
@@ -130,7 +131,7 @@
           "price": "1600 ALL"
         }
       ],
-      "primi": [
+      "first_course": [
         {
           "name": "Zuppa di Pesce",
           "description": "Preparata con branzino, salmone, patate, carote, olio extravergine d'oliva, sale",
@@ -174,7 +175,7 @@
           "price": "900 ALL"
         }
       ],
-      "secondi": [
+      "second_course": [
         {
           "name": "Salmone su Letto di Zucchine",
           "description": "Salmone al forno - servito con salsa di zucchine - basilico fresco, olio extravergine d'oliva, pepe rosa in grani, sale",
@@ -217,6 +218,11 @@
           "description": "*Chiedete al nostro staff per i dettagli*",
           "price": "Prezzo di Mercato"
         }
+      ],
+      "side_dishes": [
+        {"name": "Spinaci in Padella", "description": "", "price": "700 ALL"},
+        {"name": "Crochette di Patate", "description": "", "price": "700 ALL"},
+        {"name": "Insalata di Radicchio", "description": "", "price": "700 ALL"}
       ]
     }
   },

@@ -35,13 +35,14 @@
     "subtitle": "Krijuar me Pasion, Shërbyer me Krenari",
     "signature": "Specialitetet e Kuzhinierit",
     "categories": {
-      "sallata": "Sallata",
-      "antipasta": "Antipasta",
-      "primi": "Pjata të Para",
-      "secondi": "Pjata të Dyta"
+      "salad": "Sallata",
+      "appetizers": "Antipasta",
+      "first_course": "Pjata të Para",
+      "second_course": "Pjata të Dyta",
+      "side_dishes": "Pjata Anësore"
     },
     "items": {
-      "sallata": [
+      "salad": [
         {
           "name": "Sallatë Green",
           "description": "Sallatë jeshile, rukola, radikio, domate të thara nën vaj, ulliri, vaj ulliri ekstra i virgjër, uthull, kripë",
@@ -73,7 +74,7 @@
           "price": "850 ALL"
         }
       ],
-      "antipasta": [
+      "appetizers": [
         {
           "name": "Carpaccio Peshku Rufio",
           "description": "marinuar me vaj ulliri ekstra të virgjër, limon, kripë",
@@ -130,7 +131,7 @@
           "price": "1600 ALL"
         }
       ],
-      "primi": [
+      "first_course": [
         {
           "name": "Supë Peshku",
           "description": "E përgatitür me peshk koce, peshk salmon, patate, karrotë, vaj ulliri ekstra i virgjër, kripë",
@@ -174,7 +175,7 @@
           "price": "900 ALL"
         }
       ],
-      "secondi": [
+      "second_course": [
         {
           "name": "Salmon në Shtrat Kungulli",
           "description": "Salmon e furrë - shërbyer me salcë kungulli - borzilok i freskët, vaj ulliri ekstra i virgjër, piper i kuq kokërr, kripë",
@@ -217,6 +218,11 @@
           "description": "*Pyjet personalin për detaje*",
           "price": "Çmimi i Tregut"
         }
+      ],
+      "side_dishes": [
+        {"name": "Spinaq i Tiganisur", "description": "", "price": "700 ALL"},
+        {"name": "Kroketa Patate", "description": "", "price": "700 ALL"},
+        {"name": "Sallatë Radikio", "description": "", "price": "700 ALL"}
       ]
     }
   },

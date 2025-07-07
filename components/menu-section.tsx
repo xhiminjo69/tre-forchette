@@ -19,13 +19,13 @@ export default function MenuSection({ dict }: MenuSectionProps) {
 
         {/* Mobile-first grid layout */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8">
-          {/* Sallata */}
+          {/* Salad */}
           <div className="glass-card rounded-2xl p-4 sm:p-6 lg:p-8 shadow-2xl">
             <h3 className="text-xl sm:text-2xl font-bold font-playfair text-red-800 mb-4 sm:mb-6 text-center">
-              {dict.menu.categories.sallata}
+              {dict.menu.categories.salad}
             </h3>
             <div className="space-y-4 sm:space-y-6">
-              {dict.menu.items.sallata.map((item: any, index: number) => (
+              {dict.menu.items.salad.map((item: any, index: number) => (
                 <div key={index} className="border-b border-gray-200 pb-3 sm:pb-4 last:border-b-0">
                   <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-2 gap-1 sm:gap-2">
                     <h4 className="font-semibold text-gray-900 text-sm sm:text-base leading-tight">{item.name}</h4>
@@ -37,13 +37,13 @@ export default function MenuSection({ dict }: MenuSectionProps) {
             </div>
           </div>
 
-          {/* Antipasta */}
+          {/* Appetizers */}
           <div className="glass-card rounded-2xl p-4 sm:p-6 lg:p-8 shadow-2xl">
             <h3 className="text-xl sm:text-2xl font-bold font-playfair text-red-800 mb-4 sm:mb-6 text-center">
-              {dict.menu.categories.antipasta}
+              {dict.menu.categories.appetizers}
             </h3>
             <div className="space-y-4 sm:space-y-6 max-h-80 sm:max-h-96 overflow-y-auto">
-              {dict.menu.items.antipasta.map((item: any, index: number) => (
+              {dict.menu.items.appetizers.map((item: any, index: number) => (
                 <div key={index} className="border-b border-gray-200 pb-3 sm:pb-4 last:border-b-0">
                   <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-2 gap-1 sm:gap-2">
                     <h4 className="font-semibold text-gray-900 text-sm leading-tight">{item.name}</h4>
@@ -55,21 +55,16 @@ export default function MenuSection({ dict }: MenuSectionProps) {
             </div>
           </div>
 
-          {/* Primi Piatti */}
+          {/* First Course */}
           <div className="glass-card rounded-2xl p-4 sm:p-6 lg:p-8 shadow-2xl">
             <h3 className="text-xl sm:text-2xl font-bold font-playfair text-red-800 mb-4 sm:mb-6 text-center">
-              {dict.menu.categories.primi}
+              {dict.menu.categories.first_course}
             </h3>
             <div className="space-y-4 sm:space-y-6">
-              {dict.menu.items.primi.map((item: any, index: number) => (
+              {dict.menu.items.first_course.map((item: any, index: number) => (
                 <div key={index} className="border-b border-gray-200 pb-3 sm:pb-4 last:border-b-0">
                   <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-2 gap-1 sm:gap-2">
-                    <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-2">
-                      <h4 className="font-semibold text-gray-900 text-sm leading-tight">{item.name}</h4>
-                      {item.signature && (
-                        <Badge className="bg-red-800 text-white text-xs w-fit">{dict.menu.signature}</Badge>
-                      )}
-                    </div>
+                    <h4 className="font-semibold text-gray-900 text-sm leading-tight">{item.name}</h4>
                     <span className="font-bold text-red-800 text-xs flex-shrink-0">{item.price}</span>
                   </div>
                   <p className="text-gray-600 text-xs leading-relaxed">{item.description}</p>
@@ -78,21 +73,34 @@ export default function MenuSection({ dict }: MenuSectionProps) {
             </div>
           </div>
 
-          {/* Secondi Piatti */}
+          {/* Second Course */}
           <div className="glass-card rounded-2xl p-4 sm:p-6 lg:p-8 shadow-2xl">
             <h3 className="text-xl sm:text-2xl font-bold font-playfair text-red-800 mb-4 sm:mb-6 text-center">
-              {dict.menu.categories.secondi}
+              {dict.menu.categories.second_course}
             </h3>
             <div className="space-y-4 sm:space-y-6">
-              {dict.menu.items.secondi.map((item: any, index: number) => (
+              {dict.menu.items.second_course.map((item: any, index: number) => (
                 <div key={index} className="border-b border-gray-200 pb-3 sm:pb-4 last:border-b-0">
                   <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-2 gap-1 sm:gap-2">
-                    <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-2">
-                      <h4 className="font-semibold text-gray-900 text-sm leading-tight">{item.name}</h4>
-                      {item.signature && (
-                        <Badge className="bg-red-800 text-white text-xs w-fit">{dict.menu.signature}</Badge>
-                      )}
-                    </div>
+                    <h4 className="font-semibold text-gray-900 text-sm leading-tight">{item.name}</h4>
+                    <span className="font-bold text-red-800 text-xs flex-shrink-0">{item.price}</span>
+                  </div>
+                  <p className="text-gray-600 text-xs leading-relaxed">{item.description}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Side Dishes */}
+          <div className="glass-card rounded-2xl p-4 sm:p-6 lg:p-8 shadow-2xl">
+            <h3 className="text-xl sm:text-2xl font-bold font-playfair text-red-800 mb-4 sm:mb-6 text-center">
+              {dict.menu.categories.side_dishes}
+            </h3>
+            <div className="space-y-4 sm:space-y-6">
+              {dict.menu.items.side_dishes.map((item: any, index: number) => (
+                <div key={index} className="border-b border-gray-200 pb-3 sm:pb-4 last:border-b-0">
+                  <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-2 gap-1 sm:gap-2">
+                    <h4 className="font-semibold text-gray-900 text-sm leading-tight">{item.name}</h4>
                     <span className="font-bold text-red-800 text-xs flex-shrink-0">{item.price}</span>
                   </div>
                   <p className="text-gray-600 text-xs leading-relaxed">{item.description}</p>

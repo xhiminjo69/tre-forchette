@@ -35,45 +35,46 @@
     "subtitle": "Crafted with Passion, Served with Pride",
     "signature": "Chef's Signature",
     "categories": {
-      "sallata": "Salads",
-      "antipasta": "Antipasti",
-      "primi": "First Courses",
-      "secondi": "Main Courses"
+      "salad": "Salad",
+      "appetizers": "Appetizers",
+      "first_course": "First Course",
+      "second_course": "Second Course",
+      "side_dishes": "Side Dishes"
     },
     "items": {
-      "sallata": [
+      "salad": [
+        {
+          "name": "Primavera Salad",
+          "description": "Tomatoes, cucumber, bell peppers, capers, olives, extra virgin olive oil, feta cheese, salt",
+          "price": "800 ALL"
+        },
         {
           "name": "Green Salad",
-          "description": "Mixed greens, arugula, radicchio, sun-dried tomatoes, olives, extra virgin olive oil, vinegar, salt",
-          "price": "650 ALL"
-        },
-        {
-          "name": "Sautéed Spinach",
-          "description": "Fresh spinach, pine nuts, garlic, butter, extra virgin olive oil, salt",
-          "price": "700 ALL"
-        },
-        {
-          "name": "Caprese Salad",
-          "description": "Mozzarella Ciliegine, cherry tomatoes, fresh basil, extra virgin olive oil, oregano, salt",
-          "price": "700 ALL"
-        },
-        {
-          "name": "Roquefort Salad",
-          "description": "Mixed salad, Roquefort cheese, walnuts, honey, extra virgin olive oil, grape vinegar, salt",
+          "description": "Green salad, arugula, chicory, lolla rossa, dried tomatoes in olive oil, olives, extra virgin olive oil, grape vinegar, salt",
           "price": "750 ALL"
         },
         {
-          "name": "Arugula Salad with Pine Nuts",
-          "description": "Arugula, cherry tomatoes, green apple, pine nuts, Parmigiano cheese, grape vinegar, extra virgin olive oil, salt",
-          "price": "850 ALL"
+          "name": "Caprese Salad",
+          "description": "Mozzarella Ciliegine, cherry tomatoes, basil pesto, extra virgin olive oil, oregano, salt",
+          "price": "800 ALL"
         },
         {
-          "name": "Bresaola Salad",
-          "description": "Arugula, bresaola, Parmigiano cheese, balsamic cream, extra virgin olive oil, salt",
-          "price": "850 ALL"
+          "name": "Roquefort Salad",
+          "description": "Mix salad, Roquefort cheese, nuts, raspberry, honey, extra virgin olive oil, grape vinegar, salt",
+          "price": "900 ALL"
+        },
+        {
+          "name": "Arugula Salad",
+          "description": "Arugula, parmesan cheese, cherry tomatoes, balsamic cream, extra virgin olive oil, salt",
+          "price": "750 ALL"
+        },
+        {
+          "name": "Salmon Salad with Pine Seeds",
+          "description": "Arugula, salmon, green apple, pine seeds, parmesan cheese, dried tomatoes vinegar, extra virgin olive oil, salt",
+          "price": "900 ALL"
         }
       ],
-      "antipasta": [
+      "appetizers": [
         {
           "name": "Red Mullet Carpaccio",
           "description": "Marinated with extra virgin olive oil, lemon, salt",
@@ -130,7 +131,7 @@
           "price": "1600 ALL"
         }
       ],
-      "primi": [
+      "first_course": [
         {
           "name": "Fish Soup",
           "description": "Prepared with sea bass, salmon, potatoes, carrots, extra virgin olive oil, salt",
@@ -174,7 +175,7 @@
           "price": "900 ALL"
         }
       ],
-      "secondi": [
+      "second_course": [
         {
           "name": "Salmon on Zucchini Bed",
           "description": "Baked salmon - served with zucchini sauce - fresh basil, extra virgin olive oil, pink peppercorns, salt",
@@ -216,6 +217,23 @@
           "name": "Fresh Fish of the Day",
           "description": "*Ask our staff for details*",
           "price": "Market Price"
+        }
+      ],
+      "side_dishes": [
+        {
+          "name": "Fried Spinach",
+          "description": "Spinach, nuts, garlic, butter, extra virgin olive oil, salt",
+          "price": "700 ALL"
+        },
+        {
+          "name": "Potato Croquettes",
+          "description": "Sweet chili sauce",
+          "price": "700 ALL"
+        },
+        {
+          "name": "Chicory Salad",
+          "description": "Chicory, parmesan cheese, salt, balsamic cream, extra virgin olive oil",
+          "price": "700 ALL"
         }
       ]
     }
