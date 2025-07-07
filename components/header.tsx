@@ -112,6 +112,11 @@ export default function Header({ dict, lang }: HeaderProps) {
                 <Phone size={18} />
               </a>
             </Button>
+            
+            {/* Mobile Language Switcher */}
+            <div className="mobile-language-switcher">
+              <LanguageSwitcher currentLang={lang} compact={true} />
+            </div>
 
             {/* Mobile Menu Button */}
             <Button
@@ -153,10 +158,6 @@ export default function Header({ dict, lang }: HeaderProps) {
                   <Calendar size={16} className="mr-2" />
                   {dict.hero?.cta_reservation || "Make Reservation"}
                 </Button>
-
-                <div className="flex justify-center">
-                  <LanguageSwitcher currentLang={lang} />
-                </div>
               </div>
             </nav>
           </div>

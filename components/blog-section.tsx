@@ -77,9 +77,9 @@ export default function BlogSection({ dict }: BlogSectionProps) {
               <div className="grid lg:grid-cols-2 gap-12 mb-16">
                 <div className="relative order-2 lg:order-1">
                   <ReliableImage
-                    src="/images/blog/chef-ridi-cutting-steak.jpg"
-                    alt="Chef Ridi expertly preparing premium steak"
-                    className="w-full h-80 object-cover rounded-xl shadow-lg"
+                    src="/images/about-tasting-menu.jpg"
+                    alt="Expertise That Speaks for Itself - Premium dining experience"
+                    className="w-full h-auto object-contain rounded-xl shadow-lg"
                     width={400}
                     height={320}
                     fallbackType="dish"
@@ -187,8 +187,8 @@ export default function BlogSection({ dict }: BlogSectionProps) {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="glass-card rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:-translate-y-2">
               <ReliableImage
-                src="/images/GALLERIA PLUS per 3forketet/Screenshot 2025-07-03 175202.jpg"
-                alt="Artfully prepared carpaccio with shaved parmesan and olive oil"
+                src="/images/GALLERIA PLUS per 3forketet/ANTIPAST MASTERY.jpg"
+                alt="Antipasti Mastery - Exquisite Italian appetizers"
                 className="w-full h-64 object-cover"
                 width={400}
                 height={256}
@@ -204,8 +204,8 @@ export default function BlogSection({ dict }: BlogSectionProps) {
 
             <div className="glass-card rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:-translate-y-2">
               <ReliableImage
-                src="/images/blog/whole-fish-special-sauce.jpg"
-                alt="Whole fish with special golden sauce and lemon garnish"
+                src="/images/gallery/Fresh fish 3.jpg"
+                alt="Fresh fish prepared with our signature style"
                 className="w-full h-64 object-cover"
                 width={400}
                 height={256}
@@ -221,7 +221,7 @@ export default function BlogSection({ dict }: BlogSectionProps) {
 
             <div className="glass-card rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:-translate-y-2 md:col-span-2 lg:col-span-1">
               <ReliableImage
-                src="/images/blog/chef-ridi-cutting-steak.jpg"
+                src="/images/GALLERIA PLUS per 3forketet/Experetise.jpg"
                 alt="Chef expertise"
                 className="w-full h-64 object-cover"
                 width={400}
@@ -290,15 +290,19 @@ export default function BlogSection({ dict }: BlogSectionProps) {
 
           <div className="glass-card rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:-translate-y-2">
             <div className="h-80 relative overflow-hidden bg-black">
-              <ReliableImage
-                src="/images/GALLERIA PLUS per 3forketet/Screenshot 2025-07-03 175842.jpg"
-                alt="Elegant Italian dining experience with authentic presentation"
-                className="w-full h-full object-contain hover:scale-105 transition-transform duration-500"
-                width={600}
-                height={400}
-                fallbackType="dish"
-                priority={true}
-              />
+              <div className="absolute inset-0 flex items-center justify-center">
+                <div className="h-full w-full overflow-hidden flex items-center justify-center">
+                  <ReliableImage
+                    src="/images/GALLERIA PLUS per 3forketet/Italian Hospitality.jpg"
+                    alt="Elegant Italian dining experience with authentic presentation featuring squid"
+                    className="h-auto w-full object-contain transform scale-90 hover:scale-95 transition-transform duration-500"
+                    width={600}
+                    height={400}
+                    fallbackType="dish"
+                    priority={true}
+                  />
+                </div>
+              </div>
               {/* Removed gradient overlay to show full image details */}
               <div className="absolute bottom-4 left-4">
                 <div className="text-4xl mb-2">🍝</div>

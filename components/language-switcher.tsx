@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button"
 
 interface LanguageSwitcherProps {
   currentLang: string
+  compact?: boolean
 }
 
 const languages = [
@@ -13,7 +14,7 @@ const languages = [
   { code: "it", name: "IT", flag: "🇮🇹" },
 ]
 
-export default function LanguageSwitcher({ currentLang }: LanguageSwitcherProps) {
+export default function LanguageSwitcher({ currentLang, compact = false }: LanguageSwitcherProps) {
   const router = useRouter()
   const pathname = usePathname()
 
@@ -25,19 +26,25 @@ export default function LanguageSwitcher({ currentLang }: LanguageSwitcherProps)
   }
 
   return (
-    <div className="flex items-center space-x-2">
+    <div className={`flex items-center ${compact ? 'space-x-1' : 'space-x-2'}`}>
       {languages.map((lang) => (
         <Button
           key={lang.code}
           variant={currentLang === lang.code ? "default" : "ghost"}
           size="sm"
           onClick={() => switchLanguage(lang.code)}
-          className={`text-sm font-medium transition-all duration-200 ${
+          className={`${compact ? 'px-1.5 py-0.5 min-w-0 h-auto' : ''} text-sm font-medium transition-all duration-200 ${
             currentLang === lang.code ? "bg-red-800 text-white hover:bg-red-700" : "text-red-800 hover:bg-red-50"
           }`}
         >
-          <span className="mr-2 text-lg">{lang.flag}</span>
-          {lang.name}
+          {compact ? (
+            <span className="text-xs">{lang.code.toUpperCase()}</span>
+          ) : (
+            <>
+              <span className="mr-2 text-lg">{lang.flag}</span>
+              {lang.name}
+            </>
+          )}
         </Button>
       ))}
     </div>

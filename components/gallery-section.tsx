@@ -21,13 +21,7 @@ const galleryImages = [
     category: "Crudo",
     cdnFallback: "fishCarpaccio" as keyof typeof cdnImages,
   },
-  {
-    src: "/images/gallery/beef-carpaccio-arugula.jpg",
-    alt: "Beef carpaccio with arugula, parmesan, and sun-dried tomatoes",
-    title: "Beef Carpaccio with Arugula",
-    category: "Antipasti",
-    cdnFallback: "beefCarpaccio" as keyof typeof cdnImages,
-  },
+
   {
     src: "/images/gallery/bistecca-fiorentina-sliced.jpg",
     alt: "Bistecca alla Fiorentina sliced and served on cast iron plate",
@@ -42,13 +36,7 @@ const galleryImages = [
     category: "Secondi",
     cdnFallback: "bisteccaFiorentina" as keyof typeof cdnImages,
   },
-  {
-    src: "/images/gallery/grilled-squid-lemon.jpg",
-    alt: "Perfectly grilled squid with lemon wedges",
-    title: "Grilled Mediterranean Squid",
-    category: "Secondi",
-    cdnFallback: "grilledSquid" as keyof typeof cdnImages,
-  },
+
   {
     src: "/images/gallery/fresh-mussels-clams.jpg",
     alt: "Fresh mussels and clams in white bowl with shells",
@@ -63,13 +51,7 @@ const galleryImages = [
     category: "Primi",
     cdnFallback: "freshPasta" as keyof typeof cdnImages,
   },
-  {
-    src: "/images/gallery/seafood-risotto-scallop.jpg",
-    alt: "Seafood risotto with decorative scallop shell",
-    title: "Seafood Risotto",
-    category: "Primi",
-    cdnFallback: "seafoodRisotto" as keyof typeof cdnImages,
-  },
+
   {
     src: "/images/gallery/antipasti-selection-golden-tray.jpg",
     alt: "Elegant selection of antipasti served on a golden tray",

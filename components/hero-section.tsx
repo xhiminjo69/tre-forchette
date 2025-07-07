@@ -16,58 +16,31 @@ export default function HeroSection({ dict }: HeroSectionProps) {
     const img = new Image()
     img.onload = () => setImageLoaded(true)
     img.onerror = () => setImageLoaded(false)
-    img.src = getImagePath('/images/hero-seafood-spectacular.jpg')
+    img.src = getImagePath('/images/GALLERIA PLUS per 3forketet/SFONDI2.png')
   }, [])
 
   return (
-    <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden w-full max-w-full">
-      {/* Background Image with production-ready fallback */}
-      <div className="absolute inset-0">
-        {imageLoaded ? (
-          <div
-            className="w-full h-full bg-cover bg-center bg-no-repeat transition-opacity duration-1000"
-            style={{
-              backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url('${getImagePath('/images/hero-seafood-spectacular.jpg')}')`,
-              backgroundSize: "cover",
-              backgroundPosition: "center center",
-            }}
-          />
-        ) : (
-          <div className="w-full h-full bg-gradient-to-br from-red-800 via-red-900 to-red-950 relative">
-            {/* Elegant pattern overlay */}
-            <div
-              className="absolute inset-0 opacity-10"
-              style={{
-                backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fillRule='evenodd'%3E%3Cg fill='%23ffffff' fillOpacity='0.2'%3E%3Cpath d='M30 30c0-11.046-8.954-20-20-20s-20 8.954-20 20 8.954 20 20 20 20-8.954 20-20zm0 0c0 11.046 8.954 20 20 20s20-8.954 20-20-8.954-20-20-20-20 8.954-20 20z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
-              }}
-            />
-          </div>
-        )}
+    <section id="hero" className="relative min-h-[80vh] flex items-center justify-center overflow-hidden w-full max-w-full">
+      {/* Solid black background */}
+      <div className="absolute inset-0 bg-black">
+        {/* No background image, just solid black */}
       </div>
 
-      <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/40" />
+      {/* No additional gradient needed with full black background */}
 
       {/* Content - Mobile Optimized */}
       <div className="relative z-10 text-center text-white px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto pt-16 sm:pt-20 w-full overflow-x-hidden">
-        {/* Logo - Prominent fork design as shown in the image */}
-        <div className="flex justify-center mb-8 sm:mb-10">
-          <div className="filter-glow">
-            <ReliableImage
-              src="/images/tre-forchette-logo.png"
-              alt="Tre Forchette Logo"
-              className="h-32 sm:h-40 lg:h-48 w-auto drop-shadow-xl"
-              width={200}
-              height={200}
-              priority={true}
-              fallbackText="TRE FORCHETTE"
-              fallbackType="logo"
-              unoptimized={true}
-            />
-          </div>
+        {/* Logo */}
+        <div className="flex justify-center mb-0">
+          <img 
+            src="/images/SFONDI2-removebg-preview (1).png" 
+            alt="Tre Forchette Logo" 
+            className="w-48 sm:w-64 md:w-72 lg:w-80 h-auto object-contain"
+          />
         </div>
 
         {/* Title - Mobile optimized typography */}
-        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold font-playfair mb-3 sm:mb-4 tracking-tight drop-shadow-2xl leading-tight break-words">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold font-playfair mb-3 sm:mb-4 tracking-tight drop-shadow-2xl leading-tight break-words -mt-4 sm:-mt-6">
           {dict.hero.title}
         </h1>
 
