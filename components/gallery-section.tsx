@@ -45,16 +45,8 @@ const galleryImages = [
     cdnFallback: "freshMussels" as keyof typeof cdnImages,
   },
   {
-    src: "/images/gallery/fresh-pasta-tomato-basil.jpg",
-    alt: "Fresh pasta with tomato sauce, basil, and parmesan",
-    title: "Fresh Pasta with Tomato and Basil",
-    category: "Primi",
-    cdnFallback: "freshPasta" as keyof typeof cdnImages,
-  },
-
-  {
-    src: "/images/gallery/antipasti-selection-golden-tray.jpg",
-    alt: "Elegant selection of antipasti served on a golden tray",
+    src: "/images/GALLERIA PLUS per 3forketet/ANIPASTTT.jpg",
+    alt: "Antipasti Mastery - Exquisite Italian appetizers",
     title: "Antipasti Selection",
     category: "Antipasti",
     cdnFallback: "antipastiSelection" as keyof typeof cdnImages,
@@ -138,7 +130,7 @@ export default function GallerySection({ dict }: GallerySectionProps) {
 
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % galleryImages.length)
-    }, 5000)
+    }, 4000)
 
     return () => clearInterval(interval)
   }, [isAutoPlaying, selectedImage])
@@ -147,14 +139,14 @@ export default function GallerySection({ dict }: GallerySectionProps) {
     if (isTransitioning) return
     setIsTransitioning(true)
     setCurrentIndex((prevIndex) => (prevIndex === 0 ? galleryImages.length - 1 : prevIndex - 1))
-    setTimeout(() => setIsTransitioning(false), 300)
+    setTimeout(() => setIsTransitioning(false), 500)
   }, [isTransitioning])
 
   const goToNext = useCallback(() => {
     if (isTransitioning) return
     setIsTransitioning(true)
     setCurrentIndex((prevIndex) => (prevIndex + 1) % galleryImages.length)
-    setTimeout(() => setIsTransitioning(false), 300)
+    setTimeout(() => setIsTransitioning(false), 500)
   }, [isTransitioning])
 
   const goToSlide = useCallback(
@@ -162,7 +154,7 @@ export default function GallerySection({ dict }: GallerySectionProps) {
       if (isTransitioning || index === currentIndex) return
       setIsTransitioning(true)
       setCurrentIndex(index)
-      setTimeout(() => setIsTransitioning(false), 300)
+      setTimeout(() => setIsTransitioning(false), 500)
     },
     [currentIndex, isTransitioning],
   )
@@ -186,10 +178,10 @@ export default function GallerySection({ dict }: GallerySectionProps) {
         </div>
 
         {/* Main Carousel Display */}
-        <div className="relative max-w-5xl mx-auto mb-8">
+        <div className="relative max-w-5xl mx-auto mb-4">
           <div className="relative aspect-[16/10] rounded-2xl overflow-hidden shadow-2xl bg-white">
             <div
-              className={`w-full h-full transition-all duration-300 ease-in-out ${
+              className={`w-full h-full transition-all duration-500 ease-in-out ${
                 isTransitioning ? "scale-105 opacity-90" : "scale-100 opacity-100"
               }`}
               onClick={() => openLightbox(currentIndex)}
@@ -198,8 +190,8 @@ export default function GallerySection({ dict }: GallerySectionProps) {
                 src={galleryImages[currentIndex].src}
                 alt={galleryImages[currentIndex].alt}
                 className="w-full h-full object-cover cursor-pointer hover:scale-105 transition-transform duration-500"
-                width={800}
-                height={500}
+                width={1200}
+                height={800}
                 cdnFallback={galleryImages[currentIndex].cdnFallback}
                 priority={true}
               />
@@ -207,13 +199,7 @@ export default function GallerySection({ dict }: GallerySectionProps) {
 
             {/* Image Info Overlay */}
             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent p-6">
-              <div className="flex items-center justify-between">
-                <div>
-                  <span className="inline-block px-3 py-1 bg-red-800 text-white text-xs font-semibold rounded-full mb-2">
-                    {galleryImages[currentIndex].category}
-                  </span>
-                  <h3 className="text-white text-xl font-semibold">{galleryImages[currentIndex].title}</h3>
-                </div>
+              <div className="flex items-center justify-end">
                 <div className="text-white/80 text-sm">
                   {currentIndex + 1} / {galleryImages.length}
                 </div>
@@ -223,28 +209,28 @@ export default function GallerySection({ dict }: GallerySectionProps) {
             {/* Navigation Arrows */}
             <Button
               variant="ghost"
-              size="sm"
-              className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white/20 hover:bg-white/30 text-white backdrop-blur-sm border border-white/20 transition-all duration-200"
+              size="icon"
+              className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white/30 hover:bg-white/40 text-white backdrop-blur-sm border border-white/20 transition-all duration-200 w-10 h-10 rounded-full shadow-lg"
               onClick={goToPrevious}
               disabled={isTransitioning}
             >
-              <ChevronLeft size={20} />
+              <ChevronLeft size={24} />
             </Button>
             <Button
               variant="ghost"
-              size="sm"
-              className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white/20 hover:bg-white/30 text-white backdrop-blur-sm border border-white/20 transition-all duration-200"
+              size="icon"
+              className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white/30 hover:bg-white/40 text-white backdrop-blur-sm border border-white/20 transition-all duration-200 w-10 h-10 rounded-full shadow-lg"
               onClick={goToNext}
               disabled={isTransitioning}
             >
-              <ChevronRight size={20} />
+              <ChevronRight size={24} />
             </Button>
 
             {/* Auto-play Control */}
             <Button
               variant="ghost"
-              size="sm"
-              className="absolute top-4 right-4 bg-white/20 hover:bg-white/30 text-white backdrop-blur-sm border border-white/20"
+              size="icon"
+              className="absolute top-4 right-4 bg-white/30 hover:bg-white/40 text-white backdrop-blur-sm border border-white/20 w-8 h-8 rounded-full"
               onClick={() => setIsAutoPlaying(!isAutoPlaying)}
             >
               {isAutoPlaying ? <Pause size={16} /> : <Play size={16} />}
@@ -252,65 +238,6 @@ export default function GallerySection({ dict }: GallerySectionProps) {
           </div>
         </div>
 
-        {/* Thumbnail Navigation */}
-        <div className="max-w-6xl mx-auto">
-          <div className="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-3">
-            {galleryImages.map((image, index) => (
-              <div
-                key={index}
-                className={`relative aspect-square rounded-lg overflow-hidden cursor-pointer transition-all duration-300 ${
-                  index === currentIndex
-                    ? "ring-3 ring-red-800 scale-105 shadow-lg"
-                    : "hover:scale-105 hover:shadow-md opacity-80 hover:opacity-100"
-                }`}
-                onClick={(e) => {
-                  // If holding Ctrl/Cmd key, open lightbox directly
-                  if (e.ctrlKey || e.metaKey) {
-                    openLightbox(index);
-                  } else {
-                    // Otherwise, change the main image first
-                    goToSlide(index);
-                    // Then open lightbox after a short delay to allow the main image to update
-                    setTimeout(() => openLightbox(index), 300);
-                  }
-                }}
-              >
-                <ReliableImage
-                  src={image.src}
-                  alt={image.alt}
-                  className="w-full h-full object-cover"
-                  width={200}
-                  height={200}
-                  cdnFallback={image.cdnFallback}
-                  priority={true}
-                  unoptimized={false}
-                />
-                {index === currentIndex && (
-                  <div className="absolute inset-0 bg-red-800/20 border-2 border-red-800 rounded-lg"></div>
-                )}
-                <div className="absolute bottom-1 left-1 right-1">
-                  <span className="inline-block px-1.5 py-0.5 bg-black/60 text-white text-xs rounded text-center w-full truncate">
-                    {image.category}
-                  </span>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* Progress Indicator */}
-        <div className="flex justify-center mt-6">
-          <div className="flex space-x-1">
-            {galleryImages.map((_, index) => (
-              <div
-                key={index}
-                className={`h-1 rounded-full transition-all duration-300 ${
-                  index === currentIndex ? "w-8 bg-red-800" : "w-2 bg-gray-300"
-                }`}
-              />
-            ))}
-          </div>
-        </div>
 
         {/* Lightbox Modal */}
         {selectedImage !== null && (
@@ -340,12 +267,7 @@ export default function GallerySection({ dict }: GallerySectionProps) {
                 {/* Image Info */}
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6 rounded-b-lg">
                   <div className="text-center">
-                    <span className="inline-block px-3 py-1 bg-red-800 text-white text-sm font-semibold rounded-full mb-2">
-                      {galleryImages[selectedImage].category}
-                    </span>
-                    <h3 className="text-white text-2xl font-semibold mb-1">{galleryImages[selectedImage].title}</h3>
-                    <p className="text-gray-300 text-sm">{galleryImages[selectedImage].alt}</p>
-                    <p className="text-gray-400 text-xs mt-2">
+                    <p className="text-gray-400 text-xs">
                       {selectedImage + 1} of {galleryImages.length}
                     </p>
                   </div>

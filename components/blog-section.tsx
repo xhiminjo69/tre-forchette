@@ -57,8 +57,8 @@ export default function BlogSection({ dict }: BlogSectionProps) {
                 </div>
                 <div className="relative">
                   <ReliableImage
-                    src="/images/blog/antipasti-selection-golden-tray.jpg"
-                    alt="Elegant antipasti selection with 10 seafood dishes"
+                    src="/images/GALLERIA PLUS per 3forketet/Anitpasti masteryy.jpg"
+                    alt="Antipasti Mastery - Exquisite Italian appetizers"
                     className="w-full h-80 object-cover rounded-xl shadow-lg"
                     width={400}
                     height={320}
@@ -187,7 +187,7 @@ export default function BlogSection({ dict }: BlogSectionProps) {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="glass-card rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:-translate-y-2">
               <ReliableImage
-                src="/images/GALLERIA PLUS per 3forketet/ANTIPAST MASTERY.jpg"
+                src="/images/GALLERIA PLUS per 3forketet/ANIPASTTT.jpg"
                 alt="Antipasti Mastery - Exquisite Italian appetizers"
                 className="w-full h-64 object-cover"
                 width={400}
