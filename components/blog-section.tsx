@@ -57,9 +57,9 @@ export default function BlogSection({ dict }: BlogSectionProps) {
                 </div>
                 <div className="relative">
                   <ReliableImage
-                    src="/images/GALLERIA PLUS per 3forketet/Anitpasti masteryy.jpg"
+                    src="/images/GALLERIA PLUS per 3forketet/10 Anitpastis.jpg"
                     alt="Antipasti Mastery - Exquisite Italian appetizers"
-                    className="w-full h-80 object-cover rounded-xl shadow-lg"
+                    className="w-full h-auto object-contain rounded-xl shadow-lg"
                     width={400}
                     height={320}
                     fallbackType="dish"
