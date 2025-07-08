@@ -150,34 +150,6 @@ Thank you! I would like to make a reservation at TRE FORCHETTE.`
                 </div>
               </div>
 
-              {/* Popular Times */}
-              <div className="glass-card rounded-2xl p-4 sm:p-6 shadow-2xl">
-                <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-3 sm:mb-4 flex items-center">
-                  <Clock className="text-red-800 mr-2" size={16} />
-                  {dict.reservation.popular_times}
-                </h3>
-                <div className="space-y-3">
-                  <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center p-3 bg-red-50 rounded-lg gap-2">
-                    <div>
-                      <div className="font-semibold text-red-800 text-sm">{dict.reservation.lunch_service}</div>
-                      <div className="text-xs text-gray-600">{dict.reservation.lunch_service_desc}</div>
-                    </div>
-                    <Badge variant="outline" className="text-xs w-fit">
-                      12:00-15:00
-                    </Badge>
-                  </div>
-                  <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center p-3 bg-red-50 rounded-lg gap-2">
-                    <div>
-                      <div className="font-semibold text-red-800 text-sm">{dict.reservation.dinner_service}</div>
-                      <div className="text-xs text-gray-600">{dict.reservation.dinner_service_desc}</div>
-                    </div>
-                    <Badge variant="outline" className="text-xs w-fit">
-                      19:00-23:00
-                    </Badge>
-                  </div>
-                </div>
-                <p className="text-xs text-gray-500 mt-3 text-center">💡 {dict.reservation.book_early}</p>
-              </div>
 
               {/* Contact Info */}
               <div className="glass-card rounded-2xl p-4 sm:p-6 shadow-2xl">

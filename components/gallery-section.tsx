@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect, useCallback } from "react"
+import { useState, useEffect, useCallback, TouchEvent } from "react"
 import { ChevronLeft, ChevronRight, X, Play, Pause } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import ReliableImage from "./reliable-image"
@@ -14,36 +14,12 @@ interface GallerySectionProps {
 
 // Combine original gallery images with the new ones
 const galleryImages = [
-  {
-    src: "/images/gallery/fish-carpaccio-olive-oil.jpg",
-    alt: "Fresh fish carpaccio with olive oil drizzle and herbs",
-    title: "Fish Carpaccio with Olive Oil",
-    category: "Crudo",
-    cdnFallback: "fishCarpaccio" as keyof typeof cdnImages,
-  },
 
-  {
-    src: "/images/gallery/bistecca-fiorentina-sliced.jpg",
-    alt: "Bistecca alla Fiorentina sliced and served on cast iron plate",
-    title: "Bistecca alla Fiorentina",
-    category: "Secondi",
-    cdnFallback: "bisteccaFiorentina" as keyof typeof cdnImages,
-  },
-  {
-    src: "/images/gallery/bistecca-fiorentina-wine.jpg",
-    alt: "Sliced Bistecca alla Fiorentina with wine and colorful sauces",
-    title: "Bistecca alla Fiorentina with Wine",
-    category: "Secondi",
-    cdnFallback: "bisteccaFiorentina" as keyof typeof cdnImages,
-  },
 
-  {
-    src: "/images/gallery/fresh-mussels-clams.jpg",
-    alt: "Fresh mussels and clams in white bowl with shells",
-    title: "Fresh Mussels and Clams",
-    category: "Antipasti",
-    cdnFallback: "freshMussels" as keyof typeof cdnImages,
-  },
+
+
+
+
   {
     src: "/images/GALLERIA PLUS per 3forketet/ANIPASTTT.jpg",
     alt: "Antipasti Mastery - Exquisite Italian appetizers",
@@ -57,27 +33,6 @@ const galleryImages = [
     title: "Baked Fish",
     category: "Secondi",
     cdnFallback: "bakedFish" as keyof typeof cdnImages,
-  },
-  {
-    src: "/images/gallery/fresh-prawns.jpg",
-    alt: "Fresh prawns elegantly arranged with garnishes",
-    title: "Fresh Prawns",
-    category: "Crudo",
-    cdnFallback: "freshPrawns" as keyof typeof cdnImages,
-  },
-  {
-    src: "/images/gallery/grilled-steak.jpg",
-    alt: "Perfectly grilled steak with rosemary and seasoning",
-    title: "Grilled Steak",
-    category: "Secondi",
-    cdnFallback: "grilledSteak" as keyof typeof cdnImages,
-  },
-  {
-    src: "/images/gallery/lobster-pasta.jpg",
-    alt: "Luxurious lobster pasta with rich sauce",
-    title: "Lobster Pasta",
-    category: "Primi",
-    cdnFallback: "lobsterPasta" as keyof typeof cdnImages,
   },
   {
     src: "/images/gallery/octopus-artistry.jpg",
@@ -95,13 +50,7 @@ const galleryImages = [
   },
   // Add all the new gallery images from GALLERIA PLUS per 3forketet folder
   ...galleryPlusImages,
-  {
-    src: "/images/gallery/seafood-pasta.jpg",
-    alt: "Rich seafood pasta with mussels, clams and prawns",
-    title: "Seafood Pasta",
-    category: "Primi",
-    cdnFallback: "seafoodPasta" as keyof typeof cdnImages,
-  },
+
   {
     src: "/images/gallery/whole-fish-baked.jpg",
     alt: "Whole fish baked to perfection with Mediterranean herbs",
@@ -123,6 +72,8 @@ export default function GallerySection({ dict }: GallerySectionProps) {
   const [selectedImage, setSelectedImage] = useState<number | null>(null)
   const [isAutoPlaying, setIsAutoPlaying] = useState(true)
   const [isTransitioning, setIsTransitioning] = useState(false)
+  const [touchStart, setTouchStart] = useState<number | null>(null)
+  const [touchEnd, setTouchEnd] = useState<number | null>(null)
 
   // Auto-play functionality
   useEffect(() => {
@@ -169,6 +120,34 @@ export default function GallerySection({ dict }: GallerySectionProps) {
     setIsAutoPlaying(true)
   }, [])
 
+  // Handle touch events for swipe functionality
+  const handleTouchStart = useCallback((e: TouchEvent) => {
+    setTouchStart(e.targetTouches[0].clientX)
+  }, [])
+
+  const handleTouchMove = useCallback((e: TouchEvent) => {
+    setTouchEnd(e.targetTouches[0].clientX)
+  }, [])
+
+  const handleTouchEnd = useCallback(() => {
+    if (!touchStart || !touchEnd) return
+    
+    const distance = touchStart - touchEnd
+    const minSwipeDistance = 50 // Minimum distance required for a swipe
+    
+    if (distance > minSwipeDistance) {
+      // Swipe left, go to next image
+      goToNext()
+    } else if (distance < -minSwipeDistance) {
+      // Swipe right, go to previous image
+      goToPrevious()
+    }
+    
+    // Reset touch values
+    setTouchStart(null)
+    setTouchEnd(null)
+  }, [touchStart, touchEnd, goToNext, goToPrevious])
+
   return (
     <section id="gallery" className="section-padding bg-gray-50">
       <div className="container-max">
@@ -178,12 +157,14 @@ export default function GallerySection({ dict }: GallerySectionProps) {
         </div>
 
         {/* Main Carousel Display */}
-        <div className="relative max-w-5xl mx-auto mb-4">
-          <div className="relative aspect-[16/10] rounded-2xl overflow-hidden shadow-2xl bg-white">
+        <div className="relative max-w-4xl mx-auto mb-4">
+          <div className="relative aspect-[16/9] rounded-2xl overflow-hidden shadow-2xl bg-white">
             <div
-              className={`w-full h-full transition-all duration-500 ease-in-out ${
-                isTransitioning ? "scale-105 opacity-90" : "scale-100 opacity-100"
-              }`}
+              className={`relative w-full h-full overflow-hidden rounded-xl shadow-2xl ${isTransitioning ? "scale-105 opacity-90" : "scale-100 opacity-100"
+                }`}
+              onTouchStart={handleTouchStart}
+              onTouchMove={handleTouchMove}
+              onTouchEnd={handleTouchEnd}
               onClick={() => openLightbox(currentIndex)}
             >
               <ReliableImage
@@ -254,7 +235,11 @@ export default function GallerySection({ dict }: GallerySectionProps) {
               </Button>
 
               {/* Main Image */}
-              <div className="relative">
+              <div className="relative"
+                onTouchStart={handleTouchStart}
+                onTouchMove={handleTouchMove}
+                onTouchEnd={handleTouchEnd}
+              >
                 <ReliableImage
                   src={galleryImages[selectedImage].src}
                   alt={galleryImages[selectedImage].alt}

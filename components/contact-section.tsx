@@ -50,10 +50,10 @@ export default function ContactSection({ dict }: ContactSectionProps) {
                   <div>
                     <div className="font-semibold text-gray-900 text-sm sm:text-base">{dict.contact.email}</div>
                     <a
-                      href="mailto:info@treforchette.al"
+                      href="mailto:fem.shpk@gmail.com"
                       className="text-gray-600 text-sm hover:text-red-800 transition-colors"
                     >
-                      info@treforchette.al
+                      fem.shpk@gmail.com
                     </a>
                   </div>
                 </div>
@@ -91,7 +91,7 @@ export default function ContactSection({ dict }: ContactSectionProps) {
                   asChild
                   className="text-red-800 border-red-800 hover:bg-red-50 bg-transparent min-h-[48px] sm:col-span-1"
                 >
-                  <a href="mailto:info@treforchette.al">
+                  <a href="mailto:fem.shpk@gmail.com">
                     <Mail size={16} className="mr-2" />
                     Email Us
                   </a>

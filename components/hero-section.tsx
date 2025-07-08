@@ -87,7 +87,7 @@ export default function HeroSection({ dict }: HeroSectionProps) {
         <div className="text-center text-yellow-100 text-xs sm:text-sm font-medium opacity-90 drop-shadow-md px-4 leading-relaxed">
           <span className="block sm:inline">🐟 Fresh Seafood Daily</span>
           <span className="hidden sm:inline"> • </span>
-          <span className="block sm:inline">🦐 Authentic Italian</span>
+          <span className="block sm:inline">🥩 Authentic Italian</span>
           <span className="hidden sm:inline"> • </span>
           <span className="block sm:inline">🍋 Mediterranean Flavors</span>
         </div>

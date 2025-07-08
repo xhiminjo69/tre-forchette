@@ -23,42 +23,12 @@ export const galleryPlusImages = [
     category: "Signature",
     cdnFallback: "fallbackDish" as keyof typeof cdnImages,
   },
-  {
-    src: "/images/GALLERIA PLUS per 3forketet/caption (2).jpg",
-    alt: "Seasonal delicacy with fresh ingredients",
-    title: "Seasonal Delicacy",
-    category: "Specials",
-    cdnFallback: "fallbackDish" as keyof typeof cdnImages,
-  },
-  {
-    src: "/images/GALLERIA PLUS per 3forketet/caption (3).jpg",
-    alt: "Artisanal pasta dish with premium ingredients",
-    title: "Artisanal Pasta",
-    category: "Primi",
-    cdnFallback: "fallbackDish" as keyof typeof cdnImages,
-  },
-  {
-    src: "/images/GALLERIA PLUS per 3forketet/caption (4).jpg",
-    alt: "Gourmet seafood platter with chef's selection",
-    title: "Gourmet Seafood Platter",
-    category: "Secondi",
-    cdnFallback: "fallbackDish" as keyof typeof cdnImages,
-  },
 
-  {
-    src: "/images/GALLERIA PLUS per 3forketet/caption (6).jpg",
-    alt: "Exclusive chef's tasting menu item",
-    title: "Chef's Tasting Menu",
-    category: "Specials",
-    cdnFallback: "fallbackDish" as keyof typeof cdnImages,
-  },
-  {
-    src: "/images/GALLERIA PLUS per 3forketet/desserts.jpg",
-    alt: "Assortment of Italian desserts and sweet treats",
-    title: "Italian Desserts",
-    category: "Dolci",
-    cdnFallback: "fallbackDish" as keyof typeof cdnImages,
-  },
+
+
+
+
+
   {
     src: "/images/GALLERIA PLUS per 3forketet/fish-eggs-pasta.jpg",
     alt: "Luxurious pasta with fish eggs and premium ingredients",
@@ -66,13 +36,7 @@ export const galleryPlusImages = [
     category: "Primi",
     cdnFallback: "fallbackDish" as keyof typeof cdnImages,
   },
-  {
-    src: "/images/GALLERIA PLUS per 3forketet/linguine-with-seafood.jpg",
-    alt: "Linguine with fresh seafood in rich sauce",
-    title: "Seafood Linguine",
-    category: "Primi",
-    cdnFallback: "fallbackDish" as keyof typeof cdnImages,
-  },
+
   {
     src: "/images/GALLERIA PLUS per 3forketet/our-staff.jpg",
     alt: "Our professional and friendly restaurant staff",
@@ -123,34 +87,10 @@ export const galleryPlusImages = [
     category: "Secondi",
     cdnFallback: "fallbackDish" as keyof typeof cdnImages,
   },
-  {
-    src: "/images/GALLERIA PLUS per 3forketet/Screenshot 2025-07-03 175307.jpg",
-    alt: "Artisanal dessert with elegant presentation",
-    title: "Artisanal Dessert",
-    category: "Dolci",
-    cdnFallback: "fallbackDish" as keyof typeof cdnImages,
-  },
-  {
-    src: "/images/GALLERIA PLUS per 3forketet/Screenshot 2025-07-03 175325.jpg",
-    alt: "Signature pasta dish with premium sauce",
-    title: "Signature Pasta",
-    category: "Primi",
-    cdnFallback: "fallbackDish" as keyof typeof cdnImages,
-  },
-  {
-    src: "/images/GALLERIA PLUS per 3forketet/Screenshot 2025-07-03 175352.jpg",
-    alt: "Gourmet meat dish with artistic presentation",
-    title: "Gourmet Meat Creation",
-    category: "Secondi",
-    cdnFallback: "fallbackDish" as keyof typeof cdnImages,
-  },
-  {
-    src: "/images/GALLERIA PLUS per 3forketet/Screenshot 2025-07-03 175429.jpg",
-    alt: "Seafood specialty with chef's touch",
-    title: "Seafood Specialty",
-    category: "Secondi",
-    cdnFallback: "fallbackDish" as keyof typeof cdnImages,
-  },
+
+
+
+
   {
     src: "/images/GALLERIA PLUS per 3forketet/Screenshot 2025-07-03 175535.jpg",
     alt: "Premium steak with complementary sides",
@@ -165,20 +105,8 @@ export const galleryPlusImages = [
     category: "Secondi",
     cdnFallback: "fallbackDish" as keyof typeof cdnImages,
   },
-  {
-    src: "/images/GALLERIA PLUS per 3forketet/Screenshot 2025-07-03 175632.jpg",
-    alt: "Artistically plated appetizer with premium ingredients",
-    title: "Artistic Appetizer",
-    category: "Antipasti",
-    cdnFallback: "fallbackDish" as keyof typeof cdnImages,
-  },
-  {
-    src: "/images/GALLERIA PLUS per 3forketet/Screenshot 2025-07-03 175659.jpg",
-    alt: "Signature seafood dish with chef's special sauce",
-    title: "Signature Seafood",
-    category: "Secondi",
-    cdnFallback: "fallbackDish" as keyof typeof cdnImages,
-  },
+
+
   {
     src: "/images/GALLERIA PLUS per 3forketet/Screenshot 2025-07-03 175714.jpg",
     alt: "Gourmet pasta with premium seafood",
