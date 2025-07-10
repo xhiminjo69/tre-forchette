@@ -28,7 +28,7 @@ export default function BlogSection({ dict }: BlogSectionProps) {
             <div
               className="relative h-96 bg-cover bg-center"
               style={{
-                backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('/images/blog/seafood-wine-elegance.jpg')`,
+                backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('/images/GALLERIA PLUS per 3forketet/MEAT.jpg')`,
               }}
             >
               <div className="absolute inset-0 flex items-center justify-center text-center text-white p-4 sm:p-6 md:p-8">

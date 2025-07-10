@@ -107,13 +107,7 @@ export const galleryPlusImages = [
   },
 
 
-  {
-    src: "/images/GALLERIA PLUS per 3forketet/Screenshot 2025-07-03 175714.jpg",
-    alt: "Gourmet pasta with premium seafood",
-    title: "Gourmet Seafood Pasta",
-    category: "Primi",
-    cdnFallback: "fallbackDish" as keyof typeof cdnImages,
-  },
+
   {
     src: "/images/GALLERIA PLUS per 3forketet/ANTIPAST MASTERY.jpg",
     alt: "Antipasti mastery with exquisite Italian appetizers",
@@ -121,20 +115,8 @@ export const galleryPlusImages = [
     category: "Antipasti",
     cdnFallback: "fallbackDish" as keyof typeof cdnImages,
   },
-  {
-    src: "/images/GALLERIA PLUS per 3forketet/Screenshot 2025-07-03 175948.jpg",
-    alt: "Elegant seafood presentation with premium ingredients",
-    title: "Premium Seafood",
-    category: "Secondi",
-    cdnFallback: "fallbackDish" as keyof typeof cdnImages,
-  },
-  {
-    src: "/images/GALLERIA PLUS per 3forketet/Screenshot 2025-07-03 175931.jpg",
-    alt: "Artfully plated dish with seasonal ingredients",
-    title: "Seasonal Artistry",
-    category: "Signature",
-    cdnFallback: "fallbackDish" as keyof typeof cdnImages,
-  },
+
+
   {
     src: "/images/GALLERIA PLUS per 3forketet/Screenshot 2025-07-03 175912.jpg",
     alt: "Gourmet seafood creation with delicate presentation",
@@ -170,13 +152,7 @@ export const galleryPlusImages = [
     category: "Appetizers",
     cdnFallback: "fallbackDish" as keyof typeof cdnImages,
   },
-  {
-    src: "/images/GALLERIA PLUS per 3forketet/BALCONY.jpg",
-    alt: "Elegant restaurant balcony with stunning sea views",
-    title: "Restaurant Balcony",
-    category: "Ambiance",
-    cdnFallback: "fallbackDish" as keyof typeof cdnImages,
-  },
+
   {
     src: "/images/GALLERIA PLUS per 3forketet/SALMON.jpg",
     alt: "Caramelized Salmon with delicate sauce and garnish",
