@@ -31,11 +31,11 @@ export default function BlogSection({ dict }: BlogSectionProps) {
                 backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('/images/blog/seafood-wine-elegance.jpg')`,
               }}
             >
-              <div className="absolute inset-0 flex items-center justify-center text-center text-white p-8">
-                <div>
-                  <h3 className="text-3xl lg:text-4xl font-bold font-playfair mb-4">{dict.blog.article.title}</h3>
-                  <div className="w-24 h-1 bg-red-400 mx-auto mb-6"></div>
-                  <p className="text-lg leading-relaxed italic max-w-3xl">{dict.blog.article.intro}</p>
+              <div className="absolute inset-0 flex items-center justify-center text-center text-white p-4 sm:p-6 md:p-8">
+                <div className="w-full max-w-4xl px-2 sm:px-4">
+                  <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold font-playfair mb-3 sm:mb-4 break-words">{dict.blog.article.title}</h3>
+                  <div className="w-24 h-1 bg-red-400 mx-auto mb-4 sm:mb-6"></div>
+                  <p className="text-sm sm:text-base md:text-lg leading-relaxed italic max-w-3xl mx-auto break-words">{dict.blog.article.intro}</p>
                 </div>
               </div>
             </div>
